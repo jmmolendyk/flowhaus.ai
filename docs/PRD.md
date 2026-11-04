@@ -1,4 +1,4 @@
-# Flowhaus.ai Website PRD (v0.4)
+# Flowhaus.ai Website PRD (v0.5)
 
 **Owner:** John Molendyk, Principal Consultant, Adaptive AI Governance
 **Domain:** flowhaus.ai
@@ -9,9 +9,9 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 
 ## Positioning (locked)
 - **Hero:** Adaptive AI governance, built for how your organization works.
-- **Subhead:** Governance scaled to your size, risk, and appetite. I improve the process first, then build oversight your people will actually use.
+- **Subhead:** Governance scaled to your size, risk, and appetite, with oversight that fits the way your people already work.
 - **Title:** Principal Consultant, Adaptive AI Governance
-- **Descriptor:** Fractional AI governance, advisory, and process design
+- **Descriptor:** Fractional AI governance and advisory (process design de-emphasized in v0.5)
 - **Voice:** first person, real headshot, Flowhaus as the practice brand.
 - Right-sizing governance is the differentiator and appears in the hero, services, and approach.
 
@@ -21,26 +21,28 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 3. Peers and referrers in privacy, legal, and audit.
 
 ## Page structure (single page)
-1. Sticky header: logo, Services, Fractional, Approach, About, Selected work (hidden until populated), Book a call
+1. Sticky header: logo, Fractional, Consulting, Approach, About, Selected work (hidden until populated), Book a call
 2. Hero (lighthouse motif)
 3. The problem
-4. Services: three tiers (See it, Govern it, Prove it) plus a quiet "Process & workflow design for AI" band
-5. **Fractional AI Governance** (distinct featured section, on top of the service offerings)
+4. **Fractional AI Governance**: the core offering
+5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it), with process and workflow design as a light optional note
 6. Approach (five principles)
 7. About and credentials (bucketed)
 8. Selected work (hidden until `data/cases.js` has entries)
 9. Contact: Calendly discovery call plus a minimal form
 10. Footer
 
-## Services
+## Offering structure
+**Core: Fractional AI Governance.** An ongoing governance lead sized to the organization, kept deliberately general: no committed deliverables, no pricing on the page. Focus areas: governance controls that fit how the organization operates; review of how coming regulation affects AI use; performance monitoring summaries for leadership; guidance as use and risk change; continued support toward long-term ownership and transition to the organization.
+
+**Also available: focused consulting outcomes** (standalone, or as part of fractional):
 - **See it:** AI & Agent Inventories; AI Risk & Impact Assessments
 - **Govern it:** Corporate AI Policies; Custom Governance Frameworks
 - **Prove it:** EU AI Act Readiness; ISO/IEC 42001 Readiness & Implementation
-- **Band:** Process & workflow design for AI (human-on-the-loop). Human-centered design is carried through credentials and approach, not a headline service yet.
-- **Fractional AI Governance:** separate section, no pricing on page; monthly commitment sized to the organization, starting with a baseline, ending with handoff to internal owners.
+- **Optional note (not a service tier):** process and workflow design, framed as a skill brought where it helps, never a prerequisite. "Optimize before automate" is no longer a headline principle.
 
 ## Approach principles
-Right-size it; Optimize, then automate; Start with a problem; Learn through pilots; Governance that moves.
+Right-size it; Meet you where you are; Start with a problem; Learn through pilots; Governance that moves.
 
 ## Credentials (bucketed)
 - **AI Governance & Privacy:** AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM
@@ -57,7 +59,7 @@ Right-size it; Optimize, then automate; Start with a problem; Learn through pilo
 
 ## Contact
 - One CTA everywhere: **Book a discovery call** (single Calendly event type, with an intake question on interest).
-- Minimal contact form (name, email, message) through a form service, since the site has no backend. No email address displayed.
+- Minimal contact form (name, email, "What are you trying to solve?") through a form service, since the site has no backend. No email address displayed.
 
 ## Design direction
 Calm, precise, human; Bauhaus-leaning structure. Night-sea navy, warm paper, one amber "beam" accent. Jost headings, Inter body, both self-hosted. Custom lighthouse line-art in the header and hero, with a slow, subtle beam sweep that is disabled for reduced-motion users. The Fractional section has its own treatment. No stock imagery.
