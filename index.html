@@ -92,7 +92,6 @@
         </svg>
       </div>
       <div class="wrap hero-inner">
-        <p class="eyebrow">Principal Consultant, Adaptive AI Governance</p>
         <h1 id="hero-title">Adaptive AI governance, built for how your organization works.</h1>
         <p class="lede">Governance scaled to your needs, with oversight that meets your organization the way it works.</p>
         <div class="cta-row">
@@ -130,7 +129,6 @@
       <div class="fractional-beam" aria-hidden="true"></div>
       <div class="wrap fractional-grid">
         <div>
-          <p class="kicker kicker-light">Core offering</p>
           <h2 id="fractional-title">Fractional AI Governance</h2>
           <p class="lede lede-light">A governance lead for your organization, without the full-time hire.</p>
           <p>I act as your AI governance lead on an ongoing basis, sized to your organization. The focus is on controls that work in practice, staying ahead of coming regulation, and a clear path to long-term ownership inside your own team.</p>
@@ -155,7 +153,6 @@
     <!-- CONSULTING OUTCOMES (also available) -->
     <section class="section section-tint" id="consulting" aria-labelledby="consulting-title">
       <div class="wrap">
-        <p class="kicker">Also available</p>
         <h2 id="consulting-title" class="section-title">Focused consulting outcomes.</h2>
         <p class="section-intro">Some organizations need a specific result, with or without ongoing support. These are available as standalone engagements, or as part of fractional governance.</p>
         <div class="tiers">
@@ -220,6 +217,7 @@
         <div>
           <p class="kicker">About</p>
           <h2 id="about-title" class="section-title">John Molendyk</h2>
+          <p class="role">Principal Consultant, Adaptive AI Governance</p>
           <p>I started Flowhaus.ai to support organizations through the complex environment around artificial intelligence. For 20+ years I have been guiding organizations through change, from understanding why, then what, through implementation of technology and process.</p>
           <p>My background spans financial services, healthcare, and technology, and brings together AI governance, process engineering, product delivery, and human-centered design.</p>
 
@@ -263,15 +261,18 @@
 
     <!-- CONTACT -->
     <section class="section" id="contact" aria-labelledby="contact-title">
-      <div class="wrap contact-grid">
-        <div>
-          <p class="kicker">Contact</p>
-          <h2 id="contact-title" class="section-title">Start a conversation.</h2>
-          <p>Book a 30-minute discovery call. We'll talk about where you are with AI, what's at stake, and whether I can help. Prefer to write first? Use the form and I'll reply within two business days.</p>
-          <a class="btn" href="#" data-book-popup>Book a discovery call</a>
-          <div id="calendly-inline" class="calendly-inline" hidden></div>
-        </div>
-        <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      <div class="wrap">
+        <p class="kicker">Contact</p>
+        <h2 id="contact-title" class="section-title">Start a conversation.</h2>
+        <p class="contact-intro">Book a 30-minute discovery call. We'll talk about where you are with AI, what's at stake, and whether I can help.</p>
+        <div id="calendly-inline" class="calendly-inline" hidden></div>
+        <p class="calendly-fallback" id="calendly-fallback" hidden><a href="#" target="_blank" rel="noopener">Scheduler not loading? Open it in a new tab.</a></p>
+        <div class="write-first">
+          <div>
+            <h3>Prefer to write first?</h3>
+            <p>Send a note and I'll reply within two business days.</p>
+          </div>
+          <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="2dd8f3e6-186f-4ab1-a8d1-90f1a80f6238">
           <input type="hidden" name="subject" value="New inquiry from flowhaus.ai">
           <input type="hidden" name="from_name" value="flowhaus.ai website">
@@ -282,6 +283,7 @@
           <button class="btn" type="submit">Send message</button>
           <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         </form>
+        </div>
       </div>
     </section>
 

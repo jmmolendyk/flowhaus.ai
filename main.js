@@ -58,6 +58,9 @@
   if (CALENDLY_URL) {
     var inline = $("#calendly-inline");
     inline.hidden = false;
+    var fb = $("#calendly-fallback");
+    fb.hidden = false;
+    $("a", fb).href = CALENDLY_URL;
     // Inline embed loads when the contact section nears the viewport
     var io = "IntersectionObserver" in window ? new IntersectionObserver(function (entries) {
       if (entries[0].isIntersecting) {
