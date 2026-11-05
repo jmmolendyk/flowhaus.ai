@@ -70,11 +70,11 @@ Right-size it; Meet you where you are; Start with a problem; Learn through pilot
 - SEO basics: title, meta, Open Graph, canonical, structured data (Organization, Person). Still to add: sitemap, robots.txt, 404.
 - Privacy-respecting analytics (Plausible or similar), not yet added.
 
-## Open items before launch
-1. Calendly URL (`CALENDLY_URL` in `main.js`).
-2. Form service endpoint (replace `YOUR_FORM_ID` in `index.html`), or Netlify Forms.
-3. LinkedIn URL (`LINKEDIN_URL` in `main.js`; hidden until set).
-4. Review all copy, especially the About bio and service value statements.
-5. GitHub Pages setup and DNS for flowhaus.ai.
-6. Sitemap, robots.txt, 404, analytics.
-7. Proof cases and first articles (John).
+## Status and open items
+Done: Calendly (https://calendly.com/johnmolendyk/1-1), Web3Forms contact form, LinkedIn link in footer.
+Before launch:
+1. Confirm the Calendly event is set to 30 minutes (page copy says "30-minute discovery call").
+2. Review all copy, especially the About bio and consulting outcome descriptions.
+3. GitHub Pages setup and DNS for flowhaus.ai.
+4. Sitemap, robots.txt, 404, analytics.
+5. Proof cases and first articles (John).

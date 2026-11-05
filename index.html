@@ -271,11 +271,14 @@
           <a class="btn" href="#" data-book-popup>Book a discovery call</a>
           <div id="calendly-inline" class="calendly-inline" hidden></div>
         </div>
-        <form class="form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="2dd8f3e6-186f-4ab1-a8d1-90f1a80f6238">
+          <input type="hidden" name="subject" value="New inquiry from flowhaus.ai">
+          <input type="hidden" name="from_name" value="flowhaus.ai website">
           <label>Name <input name="name" type="text" autocomplete="name" required></label>
           <label>Email <input name="email" type="email" autocomplete="email" required></label>
           <label>What are you trying to solve? <textarea name="message" rows="5" required></textarea></label>
-          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+          <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
           <button class="btn" type="submit">Send message</button>
           <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         </form>

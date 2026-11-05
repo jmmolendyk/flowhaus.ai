@@ -4,7 +4,7 @@
 
   // ---- Settings you edit -------------------------------------------------
   var CALENDLY_URL = "https://calendly.com/johnmolendyk/1-1";
-  var LINKEDIN_URL = "";   // e.g. "https://www.linkedin.com/in/your-profile/"
+  var LINKEDIN_URL = "https://www.linkedin.com/in/johnmolendyk";
   // -----------------------------------------------------------------------
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
@@ -138,27 +138,25 @@
 
   // ---- Contact form ------------------------------------------------------
   var form = $("#contact-form"), status = $("#form-status");
+  var failMsg = "Something went wrong. Please try again, or book a call instead.";
   form.addEventListener("submit", function (e) {
-    if (/YOUR_FORM_ID/.test(form.action)) {
-      e.preventDefault();
-      status.textContent = "The form isn't connected yet.";
-      return;
-    }
     e.preventDefault();
-    status.textContent = "Sending…";
+    status.textContent = "Sending\u2026";
     fetch(form.action, {
       method: "POST",
       body: new FormData(form),
       headers: { Accept: "application/json" }
     }).then(function (r) {
-      if (r.ok) {
+      return r.json().then(function (d) { return { ok: r.ok && d.success !== false, data: d }; });
+    }).then(function (res) {
+      if (res.ok) {
         form.reset();
         status.textContent = "Thanks. I'll reply within two business days.";
       } else {
-        status.textContent = "Something went wrong. Please try again, or book a call instead.";
+        status.textContent = failMsg;
       }
     }).catch(function () {
-      status.textContent = "Something went wrong. Please try again, or book a call instead.";
+      status.textContent = failMsg;
     });
   });
 })();
