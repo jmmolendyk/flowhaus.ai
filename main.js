@@ -3,7 +3,7 @@
   "use strict";
 
   // ---- Settings you edit -------------------------------------------------
-  var CALENDLY_URL = "";   // e.g. "https://calendly.com/your-name/discovery-call"
+  var CALENDLY_URL = "https://calendly.com/johnmolendyk/1-1";
   var LINKEDIN_URL = "";   // e.g. "https://www.linkedin.com/in/your-profile/"
   // -----------------------------------------------------------------------
 
