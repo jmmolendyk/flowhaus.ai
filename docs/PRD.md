@@ -62,7 +62,7 @@ Right-size it; Meet you where you are; Start with a problem; Learn through pilot
 - Minimal contact form (name, email, "What are you trying to solve?") through a form service, since the site has no backend. No email address displayed.
 
 ## Design direction
-Calm, precise, human; Bauhaus-leaning structure. Night-sea navy, warm paper, one amber "beam" accent. Jost headings, Inter body, both self-hosted. Custom lighthouse line-art in the header and hero, with a slow, subtle beam sweep that is disabled for reduced-motion users. The Fractional section has its own treatment. No stock imagery.
+**Site feel: "The Enterprise Auditor."** Ultra-precise, rigid, highly structured. Monochromatic: deep navy, slate gray, crisp white (a pale ice tint is the only accent). Square-cornered buttons and cards, hairline borders, uppercase tracked button labels, numbered principles (01-05), strict grid. Jost headings, Inter body, both self-hosted. Custom lighthouse line-art in the header and hero, rendered in white and ice tones, with a slow, subtle beam sweep that is disabled for reduced-motion users. The Fractional section gets its own full-bleed navy treatment. No stock imagery. (The earlier amber accent and warm paper tones were retired in v0.5.)
 
 ## Requirements
 - Responsive, WCAG 2.2 AA target, keyboard accessible, reduced-motion support.
