@@ -9,7 +9,7 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 
 ## Positioning (locked)
 - **Hero:** Adaptive AI governance, built for how your organization works.
-- **Subhead:** Governance scaled to your size, risk, and appetite, with oversight that fits the way your people already work.
+- **Subhead:** Governance scaled to your needs, with oversight that meets your organization the way it works.
 - **Title:** Principal Consultant, Adaptive AI Governance
 - **Descriptor:** Fractional AI governance and advisory (process design de-emphasized in v0.5)
 - **Voice:** first person, real headshot, Flowhaus as the practice brand.
@@ -22,10 +22,10 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 
 ## Page structure (single page)
 1. Sticky header: logo, Fractional, Consulting, Approach, About, Selected work (hidden until populated), Book a call
-2. Hero (lighthouse motif)
+2. Hero (lighthouse motif; single CTA; credential chips band along the bottom: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM)
 3. The problem
 4. **Fractional AI Governance**: the core offering
-5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it), with process and workflow design as a light optional note
+5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it)
 6. Approach (five principles)
 7. About and credentials (bucketed)
 8. Selected work (hidden until `data/cases.js` has entries)
@@ -38,8 +38,8 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 **Also available: focused consulting outcomes** (standalone, or as part of fractional):
 - **See it:** AI & Agent Inventories; AI Risk & Impact Assessments
 - **Govern it:** Corporate AI Policies; Custom Governance Frameworks
-- **Prove it:** EU AI Act Readiness; ISO/IEC 42001 Readiness & Implementation
-- **Optional note (not a service tier):** process and workflow design, framed as a skill brought where it helps, never a prerequisite. "Optimize before automate" is no longer a headline principle.
+- **Prove it:** EU AI Act & NIST AI RMF Readiness; ISO/IEC 42001 Readiness & Implementation
+- Process and workflow design is not called out on the page; "optimize before automate" is no longer a headline principle.
 
 ## Approach principles
 Right-size it; Meet you where you are; Start with a problem; Learn through pilots; Governance that moves.
