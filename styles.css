@@ -60,7 +60,7 @@ p{margin:0 0 1em}
 .hero-main{position:relative}
 .hero-main::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:linear-gradient(90deg,transparent 30%,#000 80%);mask-image:linear-gradient(90deg,transparent 30%,#000 80%)}
 .hero-sky{position:absolute;inset:0;pointer-events:none}
-.hero-lighthouse{position:absolute;right:max(2vw,calc(50% - 560px));bottom:0;height:100%;width:auto;max-width:48%;overflow:visible}
+.hero-lighthouse{position:absolute;right:max(1vw,calc(50% - 590px));top:-4%;height:128%;width:auto;max-width:none;overflow:visible}
 .hero-inner{position:relative;padding-top:96px;padding-bottom:96px;max-width:var(--wrap)}
 .hero-inner>*{max-width:640px}
 .hero h1{font-size:clamp(2.3rem,5vw,3.5rem);margin-bottom:.45em;letter-spacing:-.025em;color:var(--ink)}
@@ -71,10 +71,13 @@ p{margin:0 0 1em}
 
 /* Credential band */
 .hero-band{position:relative;border-top:1px solid var(--line);background:var(--stone)}
-.chips{list-style:none;margin:0;padding:20px 0;display:flex;flex-wrap:wrap;gap:12px}
+.chips{list-style:none;margin:0;padding:20px 0 14px;display:flex;flex-wrap:wrap;gap:12px}
 .chips li{display:flex;align-items:baseline;gap:10px;border:1px solid var(--line);border-radius:var(--radius);padding:9px 14px;font-size:.88rem;line-height:1.35;background:#fff}
 .chips strong{font-family:var(--mono);font-weight:500;font-size:.8rem;letter-spacing:.04em;color:var(--blue);white-space:nowrap}
 .chips span{color:var(--muted)}
+
+.frameworks{margin:0;padding:0 0 18px;font-family:var(--mono);font-size:.76rem;letter-spacing:.03em;color:var(--muted);line-height:1.6}
+.frameworks span{color:var(--steel);text-transform:uppercase;letter-spacing:.1em;margin-right:14px;font-weight:500}
 
 /* Lighthouse beam (subtle sweep) */
 .beam{transform-box:fill-box;opacity:0;animation:sweep 12s ease-in-out infinite}
@@ -101,6 +104,7 @@ p{margin:0 0 1em}
 .card:hover{border-color:var(--blue)}
 .card h4{font-size:1.08rem;margin-bottom:.4em}
 .card p{color:var(--muted);font-size:.96rem}
+.fw-tags{display:flex;flex-wrap:wrap;gap:8px;margin:auto 0 16px;padding-top:6px}
 @media (min-width:961px){
   .tiers{grid-template-rows:auto repeat(2,1fr);row-gap:16px}
   .tier{display:grid;grid-row:span 3;grid-template-rows:subgrid}
@@ -117,9 +121,11 @@ p{margin:0 0 1em}
 .fractional p{color:var(--muted)}
 .fractional-list{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px}
 .fractional-list h3{font-family:var(--mono);font-weight:500;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--steel);margin-bottom:.9em;padding-bottom:10px;border-bottom:1px solid var(--grid)}
-.fractional-list ul{margin:0 0 1.6em;padding-left:1.1em}
-.fractional-list li{margin-bottom:.55em;color:var(--ink)}
-.fractional-list li::marker{color:var(--blue)}
+.spec{margin:0 0 1.8em}
+.spec>div{display:grid;grid-template-columns:118px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--grid)}
+.spec>div:last-child{border-bottom:0}
+.spec dt{font-family:var(--mono);font-weight:500;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);padding-top:.25em}
+.spec dd{margin:0;color:var(--ink)}
 .fractional-list p{margin:0}
 
 /* Approach */
@@ -165,8 +171,13 @@ body.modal-open{overflow:hidden}
 
 /* Contact */
 #contact{padding-bottom:64px}
-.contact-intro{max-width:62ch;margin-bottom:0;color:var(--muted)}
-.calendly-inline{margin:28px 0 0;height:700px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.contact-intro{max-width:62ch;margin-bottom:24px;color:var(--muted)}
+.call-steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.call-steps li{counter-increment:s;border-top:2px solid var(--ink);padding-top:14px}
+.call-steps li::before{content:counter(s,decimal-leading-zero);display:block;font-family:var(--mono);font-weight:500;font-size:.8rem;letter-spacing:.06em;color:var(--blue);margin-bottom:8px}
+.call-steps h3{font-size:1.05rem;margin-bottom:.3em}
+.call-steps p{font-size:.95rem;color:var(--muted);margin:0}
+.calendly-inline{margin:36px 0 0;height:700px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
 .calendly-fallback{font-size:.9rem;margin:10px 0 0}
 .calendly-fallback a{color:var(--blue)}
 .write-first{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;margin-top:48px;padding-top:40px;border-top:1px solid var(--line);align-items:start}
@@ -192,10 +203,11 @@ body.modal-open{overflow:hidden}
   .fractional-grid{grid-template-columns:1fr;gap:36px}
   .write-first{grid-template-columns:1fr;gap:20px}
   .principles{grid-template-columns:repeat(2,1fr)}
+  .call-steps{grid-template-columns:1fr}
   .about-grid{grid-template-columns:1fr;gap:32px}
   .about-photo{max-width:270px}
   .creds{grid-template-columns:1fr}
-  .hero-lighthouse{opacity:.4;max-width:70%}
+  .hero-lighthouse{opacity:.5}
 }
 @media (max-width:720px){
   body{font-size:16px}
@@ -212,7 +224,8 @@ body.modal-open{overflow:hidden}
   .problem-grid,.principles{grid-template-columns:1fr}
   .modal{max-width:100vw;max-height:100vh;height:100vh;border-radius:0}
   .modal-body{padding:28px 22px}
-  .hero-lighthouse{right:-14%;opacity:.25}
+  .spec>div{grid-template-columns:1fr;gap:2px}
+  .hero-lighthouse{right:-22%;top:0;height:100%;opacity:.28}
 }
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
