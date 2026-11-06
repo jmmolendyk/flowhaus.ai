@@ -97,6 +97,7 @@
       var card = el("button", "case-card");
       card.type = "button";
       card.setAttribute("aria-haspopup", "dialog");
+      if (c.org) card.appendChild(el("p", "case-org", [c.org, c.role].filter(Boolean).join(" \u00b7 ")));
       card.appendChild(el("h3", "", c.title));
       card.appendChild(el("p", "", c.summary));
       if (c.tags && c.tags.length) card.appendChild(tagList(c.tags));
@@ -116,8 +117,8 @@
     h.id = "case-modal-title";
     modalContent.appendChild(h);
     modalContent.appendChild(el("p", "", c.summary));
-    if (c.kind || c.role) {
-      modalContent.insertBefore(el("p", "case-meta", [c.kind, c.role].filter(Boolean).join(" · ")), h);
+    if (c.org || c.role) {
+      modalContent.insertBefore(el("p", "case-meta", [c.org, c.role, c.period].filter(Boolean).join(" \u00b7 ")), h);
     }
     if (c.tags && c.tags.length) modalContent.appendChild(tagList(c.tags));
     [["Context", c.context], ["Challenge", c.challenge], ["What I did", c.approach], ["Results", c.results], ["What it unlocked", c.outcome], ["Why it matters for AI governance", c.relevance]]

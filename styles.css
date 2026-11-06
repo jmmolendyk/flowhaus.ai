@@ -237,3 +237,5 @@ body.modal-open{overflow:hidden}
 .case-results{margin:0 0 1em;padding-left:1.1em}
 .case-results li{margin-bottom:.4em}
 .case-results li::marker{color:var(--blue)}
+.work-intro{max-width:68ch;color:var(--muted);margin:0 0 32px}
+.case-card .case-org{margin:0 0 10px;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
