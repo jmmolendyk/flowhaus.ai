@@ -1,4 +1,4 @@
-# Flowhaus.ai Website PRD (v0.5)
+# Flowhaus.ai Website PRD (v0.6)
 
 **Owner:** John Molendyk, Principal Consultant, Adaptive AI Governance
 **Domain:** flowhaus.ai
@@ -62,7 +62,7 @@ Right-size it; Meet you where you are; Start with a problem; Learn through pilot
 - Minimal contact form (name, email, "What are you trying to solve?") through a form service, since the site has no backend. No email address displayed.
 
 ## Design direction
-**Site feel: "The Enterprise Auditor."** Ultra-precise, rigid, highly structured. Monochromatic: deep navy, slate gray, crisp white (a pale ice tint is the only accent). Square-cornered buttons and cards, hairline borders, uppercase tracked button labels, numbered principles (01-05), strict grid. Jost headings, Inter body, both self-hosted. Custom lighthouse line-art in the header and hero, rendered in white and ice tones, with a slow, subtle beam sweep that is disabled for reduced-motion users. The Fractional section gets its own full-bleed navy treatment. No stock imagery. (The earlier amber accent and warm paper tones were retired in v0.5.)
+**Site feel: "The Ethical Pioneer."** Clean, human-centric, highly professional corporate light mode: white #FFFFFF, off-black text #0F172A, slate hairline borders, stone #F4F6F8 bands. One structural accent, deep royal blue #1E40AF, for data points, tags and labels; safety amber is reserved for the lighthouse lamp and beam. Radii 2-4px, strict gridlines, no warm cream/beige or soft organic shapes. IBM Plex Sans for text and IBM Plex Mono for technical labels (credential chips, framework tags, spec rows), both self-hosted. Hero is a line-art close-up of the lighthouse lantern and beam with a subtle sweep (disabled for reduced-motion users). Fractional section is a spec sheet; consulting cards carry framework tags; a frameworks strip sits under the credential chips; the contact section previews what a discovery call covers. No stock imagery. (v0.6: replaced the Enterprise Auditor look.)
 
 ## Requirements
 - Responsive, WCAG 2.2 AA target, keyboard accessible, reduced-motion support.
