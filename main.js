@@ -116,12 +116,22 @@
     h.id = "case-modal-title";
     modalContent.appendChild(h);
     modalContent.appendChild(el("p", "", c.summary));
+    if (c.kind || c.role) {
+      modalContent.insertBefore(el("p", "case-meta", [c.kind, c.role].filter(Boolean).join(" · ")), h);
+    }
     if (c.tags && c.tags.length) modalContent.appendChild(tagList(c.tags));
-    [["Context", c.context], ["Challenge", c.challenge], ["What I did", c.approach], ["Outcome", c.outcome]]
+    [["Context", c.context], ["Challenge", c.challenge], ["What I did", c.approach], ["Results", c.results], ["What it unlocked", c.outcome], ["Why it matters for AI governance", c.relevance]]
       .forEach(function (pair) {
-        if (!pair[1]) return;
+        var v = pair[1];
+        if (!v || (Array.isArray(v) && !v.length)) return;
         modalContent.appendChild(el("h4", "", pair[0]));
-        modalContent.appendChild(el("p", "", pair[1]));
+        if (Array.isArray(v)) {
+          var ul = el("ul", "case-results");
+          v.forEach(function (r) { ul.appendChild(el("li", "", r)); });
+          modalContent.appendChild(ul);
+        } else {
+          modalContent.appendChild(el("p", "", v));
+        }
       });
     document.body.classList.add("modal-open");
     if (typeof modal.showModal === "function") modal.showModal(); else modal.setAttribute("open", "");
