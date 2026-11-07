@@ -244,3 +244,4 @@ body.modal-open{overflow:hidden}
 .independence p{margin:0;color:var(--ink)}
 .case-card .tags{margin-bottom:6px}.case-card .more{margin-top:auto;padding-top:14px}
 @media(max-width:480px){.case-grid{grid-template-columns:1fr}}
+.about-grid .independence{margin-top:28px;background:#fff}
