@@ -33,21 +33,21 @@ window.FLOWHAUS_CASES = [
     "role": "Senior Consultant, Document Governance",
     "period": "2017–2018",
     "title": "From fragmented records to controlled documents",
-    "summary": "Turned 5,000+ mortgage documentation records into 500 controlled documents, implementing a document management system with clear ownership, versioning, and audit reporting.",
+    "summary": "Turned 5,000+ mortgage documentation records into 500 controlled documents, with clear ownership, versioning, and revision history to support compliance and audit.",
     "tags": [
       "Information governance",
-      "Audit response",
+      "Compliance support",
       "Sustainable ownership"
     ],
-    "context": "Multi-state audit findings exposed weaknesses in mortgage documentation governance, including fragmented sources, unclear ownership, version control, and authoritative records.",
-    "challenge": "Establish a controlled document environment and give internal teams the capability to sustain it.",
-    "approach": "I investigated the audit findings and led the rationalization of 5,000+ records into 500 controlled documents. I designed and implemented a document management system with lifecycle, metadata, access, versioning, and audit-reporting controls, built to enterprise IT standards. I then transferred administration and development capability to internal teams.",
+    "context": "Mortgage documentation had to be ready for the Compliance Magic API implementation, which required document versioning and detailed revision history. The documentation also needed to support compliance and audit.",
+    "challenge": "Establish a controlled document environment, with versioning and revision history, and give internal teams the capability to sustain it.",
+    "approach": "In preparation for, and in collaboration with, the Compliance Magic API implementation, I led the rationalization of 5,000+ records into 500 controlled documents. I designed and implemented a document management system with lifecycle, metadata, access, versioning, and revision-history controls, built to enterprise IT standards. I then transferred administration and development capability to internal teams.",
     "results": [
       "Rationalized 5,000+ records into 500 controlled documents.",
-      "Implemented document lifecycle and audit-reporting controls.",
+      "Implemented document lifecycle, versioning, and revision-history controls.",
       "Established internal ownership and support capability."
     ],
-    "outcome": "An internally managed foundation for maintaining authoritative documents and supporting audit reporting.",
+    "outcome": "An internally managed foundation for maintaining authoritative documents and supporting compliance and audit needs.",
     "relevance": "AI governance depends on knowing which policies, evidence, and reference materials are authoritative. This engagement demonstrates the information controls and sustained ownership that foundation requires."
   },
   {
