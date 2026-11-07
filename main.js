@@ -97,7 +97,7 @@
       var card = el("button", "case-card");
       card.type = "button";
       card.setAttribute("aria-haspopup", "dialog");
-      if (c.org) card.appendChild(el("p", "case-org", [c.org, c.role].filter(Boolean).join(" \u00b7 ")));
+      if (c.org) card.appendChild(el("p", "case-org", [c.org, c.period].filter(Boolean).join(" \u00b7 ")));
       card.appendChild(el("h3", "", c.title));
       card.appendChild(el("p", "", c.summary));
       if (c.tags && c.tags.length) card.appendChild(tagList(c.tags));
