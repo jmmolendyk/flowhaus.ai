@@ -21,14 +21,14 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 3. Peers and referrers in privacy, legal, and audit.
 
 ## Page structure (single page)
-1. Sticky header: logo, Fractional, Consulting, Approach, About, Selected work (hidden until populated), Book a call
+1. Sticky header: logo, Fractional, Consulting, Approach, About, Past work (hidden until populated), Book a call
 2. Hero (lighthouse motif; single CTA; credential chips band along the bottom: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM)
 3. The problem
 4. **Fractional AI Governance**: the core offering
 5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it)
 6. Approach (five principles)
 7. About and credentials (bucketed)
-8. Selected work (hidden until `data/cases.js` has entries)
+8. Past work: "Selected experience / From my past work", with an intro line and employer-labelled cards (hidden until `data/cases.js` has entries)
 9. Contact: Calendly discovery call plus a minimal form
 10. Footer
 
@@ -51,7 +51,7 @@ Right-size it; Meet you where you are; Start with a problem; Learn through pilot
 - Education line: B.A., Organizational Leadership
 - Left off: PMP, CIPP/US (until earned)
 
-## Selected work (proof panel)
+## Past work (proof panel)
 - Hidden entirely until at least one case exists in `data/cases.js`.
 - Each case is a card; clicking opens a modal on top with context, challenge, what I did, and outcome (all optional beyond title and summary).
 - Modal: focus trap, Esc and backdrop close, focus returns to the card, background scroll locked, full-screen sheet on mobile.
