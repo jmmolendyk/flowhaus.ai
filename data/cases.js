@@ -51,27 +51,27 @@ window.FLOWHAUS_CASES = [
     "relevance": "AI governance depends on knowing which policies, evidence, and reference materials are authoritative. This engagement demonstrates the information controls and sustained ownership that foundation requires."
   },
   {
-    "org": "New Century",
-    "role": "Director, Collateral Technology / Senior Business Process Manager",
-    "period": "2004–2007",
-    "title": "Independence and oversight built into decisions",
-    "summary": "Designed an appraisal-independence operating model and expanded rules-based decision support into appraisal review and routing, strengthening consistency, vendor oversight, and fraud controls.",
+    "org": "B. Braun Medical",
+    "role": "Senior Consultant, Safety Compliance",
+    "period": "2011–2012",
+    "title": "Incident management built for real constraints",
+    "summary": "Designed and implemented incident case management in a resource-constrained IT environment, standardizing intake and tracking, automating critical notifications, establishing role-based access, and enabling on-demand OSHA reporting.",
     "tags": [
-      "Decision governance",
-      "Conflict-of-interest controls",
-      "Automation adoption"
+      "Incident management",
+      "Right-sized delivery",
+      "Regulatory reporting"
     ],
-    "context": "Property valuation and underwriting brought together professional judgment, business incentives, and automated decision support across a national lending organization.",
-    "challenge": "Separate loan production from property valuation, translate risk and professional judgment into consistent evaluation criteria, and build confidence in automated underwriting.",
-    "approach": "I designed and implemented an appraisal-independence operating model using governance, standardized workflows, and conflict-of-interest controls. I expanded rules-based decision support into appraisal review and routing and used statistical analysis, pilots, and change strategies to support adoption of automated underwriting.",
+    "context": "Safety compliance depended on consistent incident handling and the ability to report to OSHA on demand, in an IT environment with limited resources.",
+    "challenge": "Deliver a working incident case management capability within limited IT resources.",
+    "approach": "I designed and implemented incident case management: standardized intake and tracking, automated critical notifications, and role-based access.",
     "results": [
-      "Implemented an operating model separating loan production from property valuation.",
-      "Established consistent criteria for appraisal review and routing.",
-      "Strengthened vendor oversight and fraud controls.",
-      "Supported organizational adoption of automated underwriting."
+      "Standardized incident intake and tracking.",
+      "Automated critical notifications.",
+      "Established role-based access.",
+      "Enabled on-demand OSHA reporting."
     ],
-    "outcome": "A more consistent approach to appraisal review, with independence controls embedded in the operating model.",
-    "relevance": "This rules-based automation experience is directly relevant to governing AI-supported decisions: define decision criteria, manage conflicts of interest, establish oversight, and build confidence through evidence and pilots."
+    "outcome": "Safety incidents could be tracked consistently and reported on demand.",
+    "relevance": "Right-sized governance in practice: effective controls for intake, notification, access, and reporting, delivered within real resource limits. The same approach applies to AI governance for organizations without large teams."
   },
   {
     "org": "Wells Fargo",
