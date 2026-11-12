@@ -31,28 +31,29 @@ window.FLOWHAUS_CASES = [
     "logoHeight": 26
   },
   {
-    "org": "Union Bank",
-    "role": "Senior Consultant, Document Governance",
-    "period": "2017–2018",
-    "title": "From fragmented records to controlled documents",
-    "summary": "Turned 5,000+ mortgage documentation records into 500 controlled documents, with clear ownership, versioning, and revision history to support compliance and audit.",
+    "org": "Wells Fargo",
+    "role": "Senior Consultant / Product Owner, Wachovia",
+    "period": "2010–2011",
+    "title": "Continuity through a critical migration",
+    "summary": "Designed and led a transactional continuity solution across three enterprise data-migration weekends, delivering zero financial losses and no customer-reported disruption.",
     "tags": [
-      "Information governance",
-      "Compliance support",
-      "Sustainable ownership"
+      "Operational resilience",
+      "Controlled deployment",
+      "Cross-functional execution"
     ],
-    "context": "Mortgage documentation had to be ready for the Compliance Magic API implementation, which required document versioning and detailed revision history. The documentation also needed to support compliance and audit.",
-    "challenge": "Establish a controlled document environment, with versioning and revision history, and give internal teams the capability to sustain it.",
-    "approach": "In preparation for, and in collaboration with, the Compliance Magic API implementation, I led the rationalization of 5,000+ records into 500 controlled documents. I designed and implemented a document management system with lifecycle, metadata, access, versioning, and revision-history controls, built to enterprise IT standards. I then transferred administration and development capability to internal teams.",
+    "context": "Enterprise data migrations required continuity for wealth-management transactions while systems and data moved to the target environment.",
+    "challenge": "Preserve real-time account balances and support offline processing through three migration weekends, coordinating readiness and execution across business, technology, and control functions.",
+    "approach": "I designed and led implementation of the transactional continuity solution. I coordinated migration readiness, operational controls, and execution across Wealth Management, Risk, Fraud, Compliance, IT, Data Administration, and Operations, including controlled system decommissioning after successful conversion.",
     "results": [
-      "Rationalized 5,000+ records into 500 controlled documents.",
-      "Implemented document lifecycle, versioning, and revision-history controls.",
-      "Established internal ownership and support capability."
+      "Supported three enterprise data-migration weekends.",
+      "Delivered zero financial losses.",
+      "Recorded no customer-reported disruption.",
+      "Completed controlled system decommissioning following conversion."
     ],
-    "outcome": "An internally managed foundation for maintaining authoritative documents and supporting compliance and audit needs.",
-    "relevance": "AI governance depends on knowing which policies, evidence, and reference materials are authoritative. This engagement demonstrates the information controls and sustained ownership that foundation requires.",
-    "logo": "assets/img/logos/unionbank.png",
-    "logoHeight": 28
+    "outcome": "Completion of the migrations while maintaining transactional continuity for customers.",
+    "relevance": "The relevance is disciplined deployment: operational readiness, continuity arrangements, coordinated controls, and controlled retirement of replaced systems. These capabilities also support responsible enterprise AI implementation.",
+    "logo": "assets/img/logos/wellsfargo.png",
+    "logoHeight": 52
   },
   {
     "org": "B. Braun Medical",
@@ -80,28 +81,27 @@ window.FLOWHAUS_CASES = [
     "logoHeight": 24
   },
   {
-    "org": "Wells Fargo",
-    "role": "Senior Consultant / Product Owner, Wachovia",
-    "period": "2010–2011",
-    "title": "Continuity through a critical migration",
-    "summary": "Designed and led a transactional continuity solution across three enterprise data-migration weekends, delivering zero financial losses and no customer-reported disruption.",
+    "org": "Union Bank",
+    "role": "Senior Consultant, Document Governance",
+    "period": "2017–2018",
+    "title": "From fragmented records to controlled documents",
+    "summary": "Turned 5,000+ mortgage documentation records into 500 controlled documents, with clear ownership, versioning, and revision history to support compliance and audit.",
     "tags": [
-      "Operational resilience",
-      "Controlled deployment",
-      "Cross-functional execution"
+      "Information governance",
+      "Compliance support",
+      "Sustainable ownership"
     ],
-    "context": "Enterprise data migrations required continuity for wealth-management transactions while systems and data moved to the target environment.",
-    "challenge": "Preserve real-time account balances and support offline processing through three migration weekends, coordinating readiness and execution across business, technology, and control functions.",
-    "approach": "I designed and led implementation of the transactional continuity solution. I coordinated migration readiness, operational controls, and execution across Wealth Management, Risk, Fraud, Compliance, IT, Data Administration, and Operations, including controlled system decommissioning after successful conversion.",
+    "context": "Mortgage documentation had to be ready for the Compliance Magic API implementation, which required document versioning and detailed revision history. The documentation also needed to support compliance and audit.",
+    "challenge": "Establish a controlled document environment, with versioning and revision history, and give internal teams the capability to sustain it.",
+    "approach": "In preparation for, and in collaboration with, the Compliance Magic API implementation, I led the rationalization of 5,000+ records into 500 controlled documents. I designed and implemented a document management system with lifecycle, metadata, access, versioning, and revision-history controls, built to enterprise IT standards. I then transferred administration and development capability to internal teams.",
     "results": [
-      "Supported three enterprise data-migration weekends.",
-      "Delivered zero financial losses.",
-      "Recorded no customer-reported disruption.",
-      "Completed controlled system decommissioning following conversion."
+      "Rationalized 5,000+ records into 500 controlled documents.",
+      "Implemented document lifecycle, versioning, and revision-history controls.",
+      "Established internal ownership and support capability."
     ],
-    "outcome": "Completion of the migrations while maintaining transactional continuity for customers.",
-    "relevance": "The relevance is disciplined deployment: operational readiness, continuity arrangements, coordinated controls, and controlled retirement of replaced systems. These capabilities also support responsible enterprise AI implementation.",
-    "logo": "assets/img/logos/wellsfargo.png",
-    "logoHeight": 52
+    "outcome": "An internally managed foundation for maintaining authoritative documents and supporting compliance and audit needs.",
+    "relevance": "AI governance depends on knowing which policies, evidence, and reference materials are authoritative. This engagement demonstrates the information controls and sustained ownership that foundation requires.",
+    "logo": "assets/img/logos/unionbank.png",
+    "logoHeight": 28
   }
 ];
