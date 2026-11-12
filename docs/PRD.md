@@ -21,16 +21,17 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 3. Peers and referrers in privacy, legal, and audit.
 
 ## Page structure (single page)
-1. Sticky header: logo, Fractional, Consulting, Approach, About, Past work (hidden until populated), Book a call
+1. Sticky header: logo, Fractional, Consulting, Approach, Insights (hidden until populated), About, Past work (hidden until populated), Book a call
 2. Hero (lighthouse motif; single CTA; credential chips band along the bottom: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM)
 3. The problem
 4. **Fractional AI Governance**: the core offering
 5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it)
 6. Approach (five principles)
-7. About and credentials (bucketed)
-8. Past work: "Selected experience / From my past work", with an intro line and employer-labelled cards (hidden until `data/cases.js` has entries)
-9. Contact: Calendly discovery call plus a minimal form
-10. Footer
+7. Insights strip (hidden until `data/insights.js` has entries): compact row of up to three newest pieces between Approach and About, each linking to its own page at /insights/<slug>/; /insights/ lists all (noindex until the first piece is published)
+8. About and credentials (bucketed)
+9. Past work: "Selected experience / From my past work", with an intro line and employer-labelled cards (hidden until `data/cases.js` has entries)
+10. Contact: Calendly discovery call plus a minimal form
+11. Footer
 
 ## Offering structure
 **Core: Fractional AI Governance.** An ongoing governance lead sized to the organization, kept deliberately general: no committed deliverables, no pricing on the page. Focus areas: governance controls that fit how the organization operates; review of how coming regulation affects AI use; performance monitoring summaries for leadership; guidance as use and risk change; continued support toward long-term ownership and transition to the organization.

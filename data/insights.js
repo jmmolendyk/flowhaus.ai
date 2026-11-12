@@ -13,12 +13,4 @@
 //   summary  One or two sentences shown on the card
 //   readTime optional, e.g. "6 min read"
 window.FLOWHAUS_INSIGHTS = [
-  {
-    slug: "sample-article",
-    title: "[Sample article] Why good AI ideas stall in review",
-    type: "Article",
-    date: "2026-11-12",
-    summary: "[Sample summary: two sentences on the point of the piece and who it helps.]",
-    readTime: "5 min read"
-  }
 ];
