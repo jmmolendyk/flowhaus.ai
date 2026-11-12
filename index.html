@@ -19,7 +19,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preload" href="assets/fonts/ibm-plex-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261113">
+  <link rel="stylesheet" href="styles.css?v=20261114">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -53,6 +53,7 @@
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
       <nav id="nav" class="nav" aria-label="Primary">
+        <a href="#insights" data-needs="insights" hidden>Insights</a>
         <a href="#fractional">Fractional</a>
         <a href="#consulting">Consulting</a>
         <a href="#approach">Approach</a>
@@ -137,6 +138,20 @@
           <li><h3>Standards are moving</h3><p>ISO/IEC 42001, the NIST AI RMF, and the EU AI Act are outpacing internal readiness.</p></li>
           <li><h3>Heavy-handed gets ignored</h3><p>Governance that stops the business gets worked around. The answer is governance sized to you.</p></li>
         </ul>
+      </div>
+    </section>
+
+    <!-- INSIGHTS STRIP (hidden until data/insights.js has entries) -->
+    <section class="insights-strip" id="insights" aria-labelledby="insights-title" hidden>
+      <div class="wrap">
+        <div class="strip-head">
+          <div>
+            <p class="kicker">Insights</p>
+            <h2 id="insights-title" class="strip-title">Thinking on AI governance</h2>
+          </div>
+          <a class="strip-all" href="/insights/">All insights &rarr;</a>
+        </div>
+        <div class="insight-grid" id="insight-grid" data-limit="3"></div>
       </div>
     </section>
 
@@ -334,7 +349,9 @@
     </div>
   </dialog>
 
-  <script src="data/cases.js?v=20261113"></script>
-  <script src="main.js?v=20261113"></script>
+  <script src="data/cases.js?v=20261114"></script>
+  <script src="data/insights.js?v=20261114"></script>
+  <script src="insights.js?v=20261114"></script>
+  <script src="main.js?v=20261114"></script>
 </body>
 </html>
