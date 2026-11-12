@@ -2,7 +2,7 @@
 // the section and its nav link stay hidden.
 //
 // Fields (all optional except title and summary):
-//   title, summary, tags: [], org, role, period, context, challenge, approach,
+//   title, summary, tags: [], org, logo (image path), logoHeight (px), role, period, context, challenge, approach,
 //   results: [] (short bullets), outcome, relevance
 // The card shows org and period; the detail window shows org, role and period.
 window.FLOWHAUS_CASES = [
@@ -26,7 +26,9 @@ window.FLOWHAUS_CASES = [
       "Preserved regulatory intent."
     ],
     "outcome": "A clearer path for people to try voice features with greater confidence in their choice.",
-    "relevance": "Disclosures are part of the product experience. This work illustrates how human-centered governance can support informed adoption while preserving the purpose of a control."
+    "relevance": "Disclosures are part of the product experience. This work illustrates how human-centered governance can support informed adoption while preserving the purpose of a control.",
+    "logo": "assets/img/logos/meta.png",
+    "logoHeight": 26
   },
   {
     "org": "Union Bank",
@@ -48,7 +50,9 @@ window.FLOWHAUS_CASES = [
       "Established internal ownership and support capability."
     ],
     "outcome": "An internally managed foundation for maintaining authoritative documents and supporting compliance and audit needs.",
-    "relevance": "AI governance depends on knowing which policies, evidence, and reference materials are authoritative. This engagement demonstrates the information controls and sustained ownership that foundation requires."
+    "relevance": "AI governance depends on knowing which policies, evidence, and reference materials are authoritative. This engagement demonstrates the information controls and sustained ownership that foundation requires.",
+    "logo": "assets/img/logos/unionbank.png",
+    "logoHeight": 28
   },
   {
     "org": "B. Braun Medical",
@@ -71,7 +75,9 @@ window.FLOWHAUS_CASES = [
       "Enabled on-demand OSHA reporting."
     ],
     "outcome": "Safety incidents could be tracked consistently and reported on demand.",
-    "relevance": "Right-sized governance in practice: effective controls for intake, notification, access, and reporting, delivered within real resource limits. The same approach applies to AI governance for organizations without large teams."
+    "relevance": "Right-sized governance in practice: effective controls for intake, notification, access, and reporting, delivered within real resource limits. The same approach applies to AI governance for organizations without large teams.",
+    "logo": "assets/img/logos/bbraun.png",
+    "logoHeight": 24
   },
   {
     "org": "Wells Fargo",
@@ -94,6 +100,8 @@ window.FLOWHAUS_CASES = [
       "Completed controlled system decommissioning following conversion."
     ],
     "outcome": "Completion of the migrations while maintaining transactional continuity for customers.",
-    "relevance": "The relevance is disciplined deployment: operational readiness, continuity arrangements, coordinated controls, and controlled retirement of replaced systems. These capabilities also support responsible enterprise AI implementation."
+    "relevance": "The relevance is disciplined deployment: operational readiness, continuity arrangements, coordinated controls, and controlled retirement of replaced systems. These capabilities also support responsible enterprise AI implementation.",
+    "logo": "assets/img/logos/wellsfargo.png",
+    "logoHeight": 52
   }
 ];

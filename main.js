@@ -85,6 +85,16 @@
     if (text) n.textContent = text;
     return n;
   }
+  function logoImg(c) {
+    var img = document.createElement("img");
+    img.src = c.logo;
+    img.alt = c.org;
+    img.className = "case-logo";
+    if (c.logoHeight) img.style.height = c.logoHeight + "px";
+    img.loading = "lazy";
+    img.decoding = "async";
+    return img;
+  }
   function tagList(tags) {
     var wrap = el("div", "tags");
     (tags || []).forEach(function (t) { wrap.appendChild(el("span", "tag", t)); });
@@ -97,7 +107,13 @@
       var card = el("button", "case-card");
       card.type = "button";
       card.setAttribute("aria-haspopup", "dialog");
-      if (c.org) card.appendChild(el("p", "case-org", [c.org, c.period].filter(Boolean).join(" \u00b7 ")));
+      if (c.org) {
+        var head = el("div", "case-head");
+        if (c.logo) head.appendChild(logoImg(c));
+        else head.appendChild(el("span", "case-org", c.org));
+        if (c.period) head.appendChild(el("span", "case-period", c.period));
+        card.appendChild(head);
+      }
       card.appendChild(el("h3", "", c.title));
       card.appendChild(el("p", "", c.summary));
       if (c.tags && c.tags.length) card.appendChild(tagList(c.tags));
@@ -117,6 +133,7 @@
     h.id = "case-modal-title";
     modalContent.appendChild(h);
     modalContent.appendChild(el("p", "", c.summary));
+    if (c.logo) modalContent.insertBefore(logoImg(c), h);
     if (c.org || c.role) {
       modalContent.insertBefore(el("p", "case-meta", [c.org, c.role, c.period].filter(Boolean).join(" \u00b7 ")), h);
     }
