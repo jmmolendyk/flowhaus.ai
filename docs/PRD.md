@@ -1,4 +1,4 @@
-# Flowhaus.ai Website PRD (v0.6)
+# Flowhaus.ai Website PRD (v0.7)
 
 **Owner:** John Molendyk, Principal Consultant, Adaptive AI Governance
 **Domain:** flowhaus.ai
@@ -62,7 +62,7 @@ Right-size it; Meet you where you are; Start with a problem; Learn through pilot
 - Minimal contact form (name, email, "What are you trying to solve?") through a form service, since the site has no backend. No email address displayed.
 
 ## Design direction
-**Site feel: "The Ethical Pioneer."** Clean, human-centric, highly professional corporate light mode: white #FFFFFF, off-black text #0F172A, slate hairline borders, stone #F4F6F8 bands. One structural accent, deep royal blue #1E40AF, for data points, tags and labels; safety amber is reserved for the lighthouse lamp and beam. Radii 2-4px, strict gridlines, no warm cream/beige or soft organic shapes. IBM Plex Sans for text and IBM Plex Mono for technical labels (credential chips, framework tags, spec rows), both self-hosted. Hero is a line-art close-up of the lighthouse lantern and beam with a subtle sweep (disabled for reduced-motion users). Fractional section is a spec sheet; consulting cards carry framework tags; a frameworks strip sits under the credential chips; the contact section previews what a discovery call covers. No stock imagery. (v0.6: replaced the Enterprise Auditor look.)
+**Site feel: "The Ethical Pioneer."** Clean, human-centric, highly professional corporate light mode: white #FFFFFF, off-black text #0F172A, slate hairline borders, stone #F4F6F8 bands. One structural accent, deep forest green #0f5a3c (hover #0b4a31), for buttons, data points, tags and labels; muted labels use a green-slate #4A6155. Gold #f5b800 is reserved for the lighthouse lamp and beam, a small marker, and a thin hover underline on buttons; never for text or thin lines on light backgrounds (1.8:1 on white). Radii 2-4px, strict gridlines, no warm cream/beige or soft organic shapes. IBM Plex Sans for text and IBM Plex Mono for technical labels (credential chips, framework tags, spec rows), both self-hosted. Hero is a line-art close-up of the lighthouse lantern and beam with a subtle sweep (disabled for reduced-motion users). Fractional section is a spec sheet; consulting cards carry framework tags; a frameworks strip sits under the credential chips; the contact section previews what a discovery call covers. No stock imagery. (v0.7: palette changed from royal blue and amber to green and gold.)
 
 ## Requirements
 - Responsive, WCAG 2.2 AA target, keyboard accessible, reduced-motion support.
