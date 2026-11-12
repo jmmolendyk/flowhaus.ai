@@ -1,4 +1,4 @@
-# Flowhaus.ai Website PRD (v0.8)
+# Flowhaus.ai Website PRD (v0.9)
 
 **Owner:** John Molendyk, Principal Consultant, Adaptive AI Governance
 **Domain:** flowhaus.ai
@@ -25,7 +25,7 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 2. Hero (lighthouse motif; single CTA; credential chips band along the bottom: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM; band opens with the statement "20+ years delivering in regulated industries such as financial services, healthcare, and technology")
 3. The problem
 4. **Fractional AI Governance**: the core offering
-5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it)
+5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it); each of the six cards has a "Learn more" link to its own page
 6. **ISO/IEC 42001 Lead Implementer** highlight band (green, between Consulting outcomes and Approach): short explanation plus a credential plate, with a discovery-call button
 7. Approach (five principles)
 8. Insights strip (hidden until `data/insights.js` has entries): compact row of up to three newest pieces between Approach and About, each linking to its own page at /insights/<slug>/; /insights/ lists all (noindex until the first piece is published)
@@ -33,6 +33,9 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 10. Past work: "Selected experience / From my past work", with an intro line and employer-labelled cards in the order Meta, Wells Fargo, B. Braun Medical, Union Bank (hidden until `data/cases.js` has entries)
 11. Contact: Calendly discovery call plus a minimal form
 12. Footer
+
+## Service pages (/services/<slug>/)
+One page per consulting outcome, generated from `_docs/build-services.py` (edit the data there and re-run, or edit the HTML directly). Structure: tier label and headline, why it matters (sourced statistics or a dates table, with a visible source line), what goes into it (five steps), what you have at the end (artifact cards, with a commented-out slot for example images), learn more (external reading, plus the owner's own articles over time), and a discovery-call CTA. Slugs: ai-agent-inventory, ai-risk-impact-assessments, corporate-ai-policies, custom-governance-frameworks, eu-ai-act-nist-readiness, iso-42001-readiness. All are in the sitemap. Statistics must carry a source and a year. Copy states that Flowhaus is not a certification body or law firm where relevant.
 
 ## Offering structure
 **Core: Fractional AI Governance.** An ongoing governance lead sized to the organization, kept deliberately general: no committed deliverables, no pricing on the page. Focus areas: governance controls that fit how the organization operates; review of how coming regulation affects AI use; performance monitoring summaries for leadership; guidance as use and risk change; continued support toward long-term ownership and transition to the organization.
