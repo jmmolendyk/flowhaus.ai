@@ -28,7 +28,7 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 5. The opportunity
 6. The reality (four cards: strategy without follow-through, tools without adoption, use without visibility, rules that don't fit)
 7. **AI Governance** summary: Fractional AI Governance, ISO/IEC 42001 Implementation, Focused Governance (each with a short subhead), a "What it focuses on" panel, and a Learn more button to /governance/
-8. Approach (five principles; to be reworked around four disciplines: process engineering, product delivery, human-centered design, responsible AI and governance)
+8. Approach: "Optimize, then automate." Four steps (define the problem and the measure; optimize, then automate; measure and improve; hand over ownership), plus two supporting ideas (governance as an enabler; design for adoption). Language adapted from johnmolendyk.com/approach
 9. Insights strip (hidden until `data/insights.js` has entries), between Approach and About, linking to /insights/<slug>/ (noindex until the first piece is published)
 10. About and credentials (buckets in order: Process Engineering & Product Delivery, AI Governance & Privacy, Human-Centered Design), ending with the independence statement and a "learn more" link to johnmolendyk.com (new window)
 11. Past work: "Selected experience / From my past work", employer-labelled cards in the order Meta, Wells Fargo, B. Braun Medical, Union Bank (hidden until `data/cases.js` has entries)
