@@ -375,3 +375,6 @@ body.modal-open{overflow:hidden}
 .case-metric{margin:4px 0 14px;padding:12px 0 0;border-top:1px solid var(--line);width:100%}
 .case-metric strong{display:block;font-size:1.7rem;line-height:1.1;font-weight:600;color:var(--green);letter-spacing:-.01em}
 .case-metric span{display:block;margin-top:4px;font-size:.9rem;line-height:1.4;color:var(--ink)}
+/* Section background rhythm: white / stone alternate; Insights strip uses a pale green so it never matches its neighbours */
+.about-grid .independence{background:var(--stone)}
+.insights-strip{background:#EDF3EF}
