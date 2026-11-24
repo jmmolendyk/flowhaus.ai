@@ -13,9 +13,8 @@ window.FLOWHAUS_CASES = [
     "title": "Voice features people trusted enough to try",
     "summary": "Helped redesign speech-to-text disclosures for Meta Quest voice features, increasing user trust and first-time voice adoption while preserving regulatory intent.",
     "tags": [
-      "Privacy by design",
-      "Human-centered design",
-      "Responsible adoption"
+      "Governance",
+      "Human-centered"
     ],
     "context": "Meta Quest voice features required people to make informed choices about using speech-to-text. The disclosures were a critical point where privacy expectations, regulatory requirements, and product adoption met.",
     "challenge": "Preserve regulatory intent while making disclosures work better for the people deciding whether to try voice features.",
@@ -28,7 +27,12 @@ window.FLOWHAUS_CASES = [
     "outcome": "A clearer path for people to try voice features with greater confidence in their choice.",
     "relevance": "Disclosures are part of the product experience. This work illustrates how human-centered governance can support informed adoption while preserving the purpose of a control.",
     "logo": "assets/img/logos/meta.png",
-    "logoHeight": 26
+    "logoHeight": 26,
+    "category": "AI and voice features",
+    "metric": {
+      "value": "~30%",
+      "label": "estimated increase in new voice usage, based on internal testing"
+    }
   },
   {
     "org": "Wells Fargo",
@@ -37,9 +41,9 @@ window.FLOWHAUS_CASES = [
     "title": "Continuity through a critical migration",
     "summary": "Designed and led a transactional continuity solution across three enterprise data-migration weekends, delivering zero financial losses and no customer-reported disruption.",
     "tags": [
-      "Operational resilience",
-      "Controlled deployment",
-      "Cross-functional execution"
+      "Delivery",
+      "Governance",
+      "Human-centered"
     ],
     "context": "Enterprise data migrations required continuity for wealth-management transactions while systems and data moved to the target environment.",
     "challenge": "Preserve real-time account balances and support offline processing through three migration weekends, coordinating readiness and execution across business, technology, and control functions.",
@@ -53,7 +57,12 @@ window.FLOWHAUS_CASES = [
     "outcome": "Completion of the migrations while maintaining transactional continuity for customers.",
     "relevance": "The relevance is disciplined deployment: operational readiness, continuity arrangements, coordinated controls, and controlled retirement of replaced systems. These capabilities also support responsible enterprise AI implementation.",
     "logo": "assets/img/logos/wellsfargo.png",
-    "logoHeight": 52
+    "logoHeight": 52,
+    "category": "Wealth management, fraud, risk and compliance",
+    "metric": {
+      "value": "Zero",
+      "label": "financial losses across three data-migration weekends"
+    }
   },
   {
     "org": "B. Braun Medical",
@@ -78,30 +87,36 @@ window.FLOWHAUS_CASES = [
     "outcome": "Safety incidents could be tracked consistently and reported on demand.",
     "relevance": "Right-sized governance in practice: effective controls for intake, notification, access, and reporting, delivered within real resource limits. The same approach applies to AI governance for organizations without large teams.",
     "logo": "assets/img/logos/bbraun.png",
-    "logoHeight": 24
+    "logoHeight": 24,
+    "category": "Healthcare"
   },
   {
     "org": "Union Bank",
     "role": "Senior Consultant, Document Governance",
     "period": "2017–2018",
     "title": "From fragmented records to controlled documents",
-    "summary": "Turned 5,000+ mortgage documentation records into 500 controlled documents, with clear ownership, versioning, and revision history to support compliance and audit.",
+    "summary": "Turned 5,000+ mortgage documentation records into about 500 controlled documents, with clear ownership, versioning, and revision history to support compliance and audit.",
     "tags": [
-      "Information governance",
-      "Compliance support",
-      "Sustainable ownership"
+      "Governance",
+      "Process",
+      "Human-centered"
     ],
     "context": "Mortgage documentation had to be ready for the Compliance Magic API implementation, which required document versioning and detailed revision history. The documentation also needed to support compliance and audit.",
     "challenge": "Establish a controlled document environment, with versioning and revision history, and give internal teams the capability to sustain it.",
-    "approach": "In preparation for, and in collaboration with, the Compliance Magic API implementation, I led the rationalization of 5,000+ records into 500 controlled documents. I designed and implemented a document management system with lifecycle, metadata, access, versioning, and revision-history controls, built to enterprise IT standards. I then transferred administration and development capability to internal teams.",
+    "approach": "In preparation for, and in collaboration with, the Compliance Magic API implementation, I led the rationalization of 5,000+ records into about 500 controlled documents. I designed and implemented a document management system with lifecycle, metadata, access, versioning, and revision-history controls, built to enterprise IT standards. I then transferred administration and development capability to internal teams.",
     "results": [
-      "Rationalized 5,000+ records into 500 controlled documents.",
+      "Rationalized 5,000+ records into about 500 controlled documents.",
       "Implemented document lifecycle, versioning, and revision-history controls.",
       "Established internal ownership and support capability."
     ],
     "outcome": "An internally managed foundation for maintaining authoritative documents and supporting compliance and audit needs.",
     "relevance": "AI governance depends on knowing which policies, evidence, and reference materials are authoritative. This engagement demonstrates the information controls and sustained ownership that foundation requires.",
     "logo": "assets/img/logos/unionbank.png",
-    "logoHeight": 28
+    "logoHeight": 28,
+    "category": "Mortgage banking",
+    "metric": {
+      "value": "5,000+ → ~500",
+      "label": "records rationalized into controlled documents"
+    }
   }
 ];

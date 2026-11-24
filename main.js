@@ -114,8 +114,15 @@
         if (c.period) head.appendChild(el("span", "case-period", c.period));
         card.appendChild(head);
       }
+      if (c.category) card.appendChild(el("span", "case-cat", c.category));
       card.appendChild(el("h3", "", c.title));
       card.appendChild(el("p", "", c.summary));
+      if (c.metric) {
+        var mt = el("div", "case-metric");
+        mt.appendChild(el("strong", "", c.metric.value));
+        mt.appendChild(el("span", "", c.metric.label));
+        card.appendChild(mt);
+      }
       if (c.tags && c.tags.length) card.appendChild(tagList(c.tags));
       card.appendChild(el("span", "more", "Read the details →"));
       card.addEventListener("click", function () { openCase(i, card); });

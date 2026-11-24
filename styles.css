@@ -371,3 +371,7 @@ body.modal-open{overflow:hidden}
 .approach-support p{margin:0;color:var(--muted);max-width:52ch}
 @media(max-width:720px){.approach-support{grid-template-columns:1fr;gap:20px}}
 .gov-offers .card-link{margin:10px 0 0}
+.case-card .case-cat{margin:0 0 6px;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--steel)}
+.case-metric{margin:4px 0 14px;padding:12px 0 0;border-top:1px solid var(--line);width:100%}
+.case-metric strong{display:block;font-size:1.7rem;line-height:1.1;font-weight:600;color:var(--green);letter-spacing:-.01em}
+.case-metric span{display:block;margin-top:4px;font-size:.9rem;line-height:1.4;color:var(--ink)}
