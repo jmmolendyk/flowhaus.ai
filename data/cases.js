@@ -66,7 +66,7 @@ window.FLOWHAUS_CASES = [
       "Right-sized delivery",
       "Regulatory reporting"
     ],
-    "context": "Safety compliance depended on consistent incident handling and the ability to report to OSHA on demand, in an IT environment with limited resources.",
+    "context": "Safety compliance depended on consistent incident handling and the ability to report to OSHA on demand.",
     "challenge": "Deliver a working incident case management capability within limited IT resources.",
     "approach": "I designed and implemented incident case management: standardized intake and tracking, automated critical notifications, and role-based access.",
     "results": [
