@@ -1,4 +1,4 @@
-# Flowhaus.ai Website PRD (v0.9)
+# Flowhaus.ai Website PRD (v1.0)
 
 **Owner:** John Molendyk, Principal Consultant, Adaptive AI Governance
 **Domain:** flowhaus.ai
@@ -20,19 +20,23 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 2. Hiring leaders (CIO, COO, Risk, Compliance, Privacy) evaluating an independent or fractional governance lead.
 3. Peers and referrers in privacy, legal, and audit.
 
-## Page structure (single page)
-1. Sticky header: logo, Fractional, Consulting, Approach, Insights (hidden until populated), About, Past work (hidden until populated), Book a call
-2. Hero (lighthouse motif; single CTA; credential chips band along the bottom: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM; band opens with the statement "20+ years delivering in regulated industries such as financial services, healthcare, and technology")
-3. The problem
-4. **Fractional AI Governance**: the core offering
-5. Focused consulting outcomes ("Also available"): three tiers (See it, Govern it, Prove it); each of the six cards has a "Learn more" link to its own page
-6. **ISO/IEC 42001 Lead Implementer** highlight band (green, between Consulting outcomes and Approach): short explanation plus a credential plate, with a discovery-call button
-7. Approach (five principles)
-8. Insights strip (hidden until `data/insights.js` has entries): compact row of up to three newest pieces between Approach and About, each linking to its own page at /insights/<slug>/; /insights/ lists all (noindex until the first piece is published)
-9. About and credentials (bucketed), ending with the independence statement and a "learn more" link to johnmolendyk.com (new window)
-10. Past work: "Selected experience / From my past work", with an intro line and employer-labelled cards in the order Meta, Wells Fargo, B. Braun Medical, Union Bank (hidden until `data/cases.js` has entries)
-11. Contact: Calendly discovery call plus a minimal form
-12. Footer
+## Page structure (single page, plus /governance/ and /services/)
+1. Sticky header: logo, AI Governance, Approach, Insights (hidden until populated), About, Past work (hidden until populated), Book a call
+2. Hero (lighthouse motif; single CTA; headline "From AI strategy to adoption, with responsibility built in"; label "AI enablement and responsible AI")
+3. Statement band: "20+ years delivering in regulated industries such as financial services, healthcare, and technology", on its own, large, with generous spacing
+4. Credential chips band: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM
+5. The opportunity
+6. The reality (four cards: strategy without follow-through, tools without adoption, use without visibility, rules that don't fit)
+7. **AI Governance** summary: Fractional AI Governance, ISO/IEC 42001 Implementation, Focused Governance (each with a short subhead), a "What it focuses on" panel, and a Learn more button to /governance/
+8. Approach (five principles; to be reworked around four disciplines: process engineering, product delivery, human-centered design, responsible AI and governance)
+9. Insights strip (hidden until `data/insights.js` has entries), between Approach and About, linking to /insights/<slug>/ (noindex until the first piece is published)
+10. About and credentials (buckets in order: Process Engineering & Product Delivery, AI Governance & Privacy, Human-Centered Design), ending with the independence statement and a "learn more" link to johnmolendyk.com (new window)
+11. Past work: "Selected experience / From my past work", employer-labelled cards in the order Meta, Wells Fargo, B. Braun Medical, Union Bank (hidden until `data/cases.js` has entries)
+12. Contact: Calendly discovery call plus a minimal form
+13. Footer: governance frameworks line (NIST AI RMF, ISO/IEC 42001, EU AI Act, OECD AI Principles, privacy and data governance), copyright, LinkedIn
+
+## AI Governance landing page (/governance/)
+Holds the detail moved off the homepage: Fractional AI Governance (full description and panel), Focused consulting outcomes (six cards linking to service pages), and the ISO/IEC 42001 Lead Implementer band. A start for the governance landing page; to be expanded.
 
 ## Service pages (/services/<slug>/)
 One page per consulting outcome, generated from `_docs/build-services.py` (edit the data there and re-run, or edit the HTML directly). Structure: tier label and headline, why it matters (sourced statistics or a dates table, with a visible source line), what goes into it (five steps), what you have at the end (artifact cards, with a commented-out slot for example images), learn more (external reading, plus the owner's own articles over time), and a discovery-call CTA. Slugs: ai-agent-inventory, ai-risk-impact-assessments, corporate-ai-policies, custom-governance-frameworks, eu-ai-act-nist-readiness, iso-42001-readiness. All are in the sitemap. Statistics must carry a source and a year. Copy states that Flowhaus is not a certification body or law firm where relevant.

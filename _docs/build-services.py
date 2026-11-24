@@ -98,7 +98,7 @@ def render(p):
     h=h.replace('content="AI &amp; Agent Inventories"','content="'+p['name']+'"')
     h=LD.sub('<script type="application/ld+json">\n  {\n    "@context": "https://schema.org",\n    "@type": "Service",\n    "name": "'+p['name'].replace('&amp;','&')+'",\n    "provider": {"@type": "Organization", "name": "Flowhaus.ai", "url": "https://flowhaus.ai/"},\n    "url": "https://flowhaus.ai/services/'+p['slug']+'/"\n  }\n  </script>',h)
     o=[]
-    o.append('<main id="main">\n    <article class="article service">\n      <div class="wrap">\n        <a class="back-link" href="/#consulting">&larr; Focused consulting outcomes</a>\n        <header class="service-head">\n          <p class="service-tier"><span>%s</span> %s</p>\n          <h1>%s</h1>\n          <p class="lede">%s</p>\n        </header>\n        <div class="prose">'%(p['tier'],p['tiername'],p['name'],ent(p['lede'])))
+    o.append('<main id="main">\n    <article class="article service">\n      <div class="wrap">\n        <a class="back-link" href="/governance/#consulting">&larr; Focused consulting outcomes</a>\n        <header class="service-head">\n          <p class="service-tier"><span>%s</span> %s</p>\n          <h1>%s</h1>\n          <p class="lede">%s</p>\n        </header>\n        <div class="prose">'%(p['tier'],p['tiername'],p['name'],ent(p['lede'])))
     o.append(f'          <h2>{p["why_h"]}</h2>\n          <p>{ent(p["why"])}</p>')
     if p.get('stats'):
         o.append('          <div class="stat-row">\n'+'\n'.join(f'            <div class="stat"><span class="stat-num">{n}</span><span class="stat-label">{l}</span></div>' for n,l in p['stats'])+'\n          </div>')
