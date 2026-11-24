@@ -22,7 +22,7 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 
 ## Page structure (single page, plus /governance/ and /services/)
 1. Sticky header: logo, AI Governance, Approach, Insights (hidden until populated), About, Past work (hidden until populated), Book a call
-2. Hero (lighthouse motif; single CTA; headline "From AI strategy to adoption, with responsibility built in"; label "AI enablement and responsible AI")
+2. Hero (lighthouse motif; single CTA; headline "From AI strategy to adoption, responsibly"; label "AI enablement and responsible AI")
 3. Statement band: "20+ years delivering in regulated industries such as financial services, healthcare, and technology", on its own, large, with generous spacing
 4. Credential chips band: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM
 5. The opportunity
