@@ -370,3 +370,4 @@ body.modal-open{overflow:hidden}
 .approach-support h3{font-size:1.1rem;margin-bottom:.4em;color:var(--green)}
 .approach-support p{margin:0;color:var(--muted);max-width:52ch}
 @media(max-width:720px){.approach-support{grid-template-columns:1fr;gap:20px}}
+.gov-offers .card-link{margin:10px 0 0}
