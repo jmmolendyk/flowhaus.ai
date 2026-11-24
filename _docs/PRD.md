@@ -1,6 +1,6 @@
 # Flowhaus.ai Website PRD (v1.0)
 
-**Owner:** John Molendyk, Principal Consultant, Adaptive AI Governance
+**Owner:** John Molendyk, Principal Consultant, AI Enablement and Governance
 **Domain:** flowhaus.ai
 **Build:** static site (HTML/CSS/JS) in this repo, hosted free on GitHub Pages. No CMS; content lives in files. Changes are made by Claude Code sessions or direct file edits.
 
@@ -10,7 +10,7 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 ## Positioning (locked)
 - **Hero:** Adaptive AI governance, built for how your organization works.
 - **Subhead:** Governance scaled to your needs, with oversight that meets your organization the way it works.
-- **Title:** Principal Consultant, Adaptive AI Governance
+- **Title:** Principal Consultant, AI Enablement and Governance
 - **Descriptor:** Fractional AI governance and advisory (process design de-emphasized in v0.5)
 - **Voice:** first person, real headshot, Flowhaus as the practice brand.
 - Right-sizing governance is the differentiator and appears in the hero, services, and approach.
@@ -21,15 +21,15 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 3. Peers and referrers in privacy, legal, and audit.
 
 ## Page structure (single page, plus /governance/ and /services/)
-1. Sticky header: logo, AI Governance, Approach, Insights (hidden until populated), About, Past work (hidden until populated), Book a call
+1. Sticky header: logo, Approach, AI Governance, Insights (hidden until populated), About, Past work (hidden until populated), Book a call
 2. Hero (lighthouse motif; single CTA; headline "From AI strategy to adoption, responsibly"; label "AI enablement and responsible AI")
 3. Statement band: "20+ years delivering in regulated industries such as financial services, healthcare, and technology", on its own, large, with generous spacing
 4. Credential chips band: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM
 5. The opportunity
 6. The reality (four cards: strategy without follow-through, tools without adoption, use without visibility, rules that don't fit)
-7. **AI Governance** summary: Fractional AI Governance, ISO/IEC 42001 Implementation, Focused Governance (each with a short subhead), a "What it focuses on" panel, and a Learn more button to /governance/
-8. Approach: "Optimize, then automate." Four steps (define the problem and the measure; optimize, then automate; measure and improve; hand over ownership), plus two supporting ideas (governance as an enabler; design for adoption). Language adapted from johnmolendyk.com/approach
-9. Insights strip (hidden until `data/insights.js` has entries), between Approach and About, linking to /insights/<slug>/ (noindex until the first piece is published)
+7. Approach: "Optimize, then automate." Four steps (define and measure; optimize, then automate; measure and improve; transfer ownership), plus two supporting ideas (governance as an enabler; design for adoption). Language adapted from johnmolendyk.com/approach
+8. **AI Governance** summary: Fractional AI Governance, ISO/IEC 42001 Implementation, Focused Governance (each with a short subhead), a "What it focuses on" panel, and a Learn more button to /governance/
+9. Insights strip (hidden until `data/insights.js` has entries), between AI Governance and About, linking to /insights/<slug>/ (noindex until the first piece is published)
 10. About and credentials (buckets in order: Process Engineering & Product Delivery, AI Governance & Privacy, Human-Centered Design), ending with the independence statement and a "learn more" link to johnmolendyk.com (new window)
 11. Past work: "Selected experience / From my past work", employer-labelled cards in the order Meta, Wells Fargo, B. Braun Medical, Union Bank (hidden until `data/cases.js` has entries)
 12. Contact: Calendly discovery call plus a minimal form
