@@ -357,8 +357,7 @@ body.modal-open{overflow:hidden}
 .gov-offers p{margin:0;color:var(--muted)}
 .fractional-list .btn{margin-top:28px}
 .gov-head{padding:48px 0 64px}
-.gov-head .wrap{max-width:900px}
-.page-title{font-size:clamp(2rem,4.2vw,2.9rem);line-height:1.12;letter-spacing:-.02em;margin:.35em 0 .45em;max-width:20ch}
+.page-title{font-size:clamp(2rem,4.2vw,2.9rem);line-height:1.12;letter-spacing:-.02em;margin:.35em 0 .45em;max-width:24ch}
 .gov-head .lede{max-width:62ch}
 .gov-jump{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .gov-jump a{font-family:var(--mono);font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--line);border-radius:2px;padding:8px 12px;color:var(--green);text-decoration:none;background:#fff}

@@ -15,7 +15,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-  <link rel="stylesheet" href="/styles.css?v=20261129">
+  <link rel="stylesheet" href="/styles.css?v=20261130">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -57,7 +57,7 @@
         <p class="kicker">AI Governance</p>
         <h1 id="gov-title" class="page-title">Responsible AI, built into how your organization works.</h1>
         <p class="lede">Governance is how AI stays accountable as it scales. It is delivered three ways: an ongoing fractional lead, a path to ISO/IEC 42001 certification, or a focused outcome with a clear end point.</p>
-        <nav class="gov-jump" aria-label="On this page"><a href="#fractional">Fractional AI Governance</a><a href="#consulting">Focused governance outcomes</a><a href="#iso42001">ISO/IEC 42001</a></nav>
+        <nav class="gov-jump" aria-label="On this page"><a href="#fractional">Fractional AI Governance</a><a href="#iso42001">ISO/IEC 42001</a><a href="#consulting">Focused governance outcomes</a></nav>
       </div>
     </section>
 
@@ -87,10 +87,28 @@
       </div>
     </section>
 
+    <!-- ISO 42001 HIGHLIGHT -->
+    <section class="cert-band" id="iso42001" aria-labelledby="iso-title">
+      <div class="wrap cert-grid">
+        <div>
+          <p class="kicker">Certification</p>
+          <h2 id="iso-title" class="section-title">ISO/IEC 42001 Lead Implementer.</h2>
+          <p>ISO/IEC 42001 is the international standard for AI management systems. I'm a BSI-certified Lead Implementer, qualified to help organizations put an AI management system in place that fits their size, risk, and the way they already work.</p>
+          <a class="btn btn-light" href="/#contact">Book a discovery call</a>
+        </div>
+        <dl class="cert-plate" aria-label="Certification details">
+          <div><dt>Credential</dt><dd>ISO/IEC 42001 Lead Implementer</dd></div>
+          <div><dt>Issued by</dt><dd>BSI</dd></div>
+          <div><dt>Standard</dt><dd>ISO/IEC 42001, AI management systems</dd></div>
+          <div><dt>Applied in</dt><dd>ISO/IEC 42001 readiness and custom governance frameworks</dd></div>
+        </dl>
+      </div>
+    </section>
+
     <!-- CONSULTING OUTCOMES (also available) -->
     <section class="section section-tint" id="consulting" aria-labelledby="consulting-title">
       <div class="wrap">
-        <h2 id="consulting-title" class="section-title">Focused consulting outcomes.</h2>
+        <h2 id="consulting-title" class="section-title">Focused governance outcomes.</h2>
         <p class="section-intro">Some organizations need a specific result, with or without ongoing support. These are available as standalone engagements, or as part of fractional governance.</p>
         <div class="tiers">
           <article class="tier">
@@ -137,24 +155,19 @@
       </div>
     </section>
 
-    <!-- ISO 42001 HIGHLIGHT -->
-    <section class="cert-band" id="iso42001" aria-labelledby="iso-title">
-      <div class="wrap cert-grid">
-        <div>
-          <p class="kicker">Certification</p>
-          <h2 id="iso-title" class="section-title">ISO/IEC 42001 Lead Implementer.</h2>
-          <p>ISO/IEC 42001 is the international standard for AI management systems. I'm a BSI-certified Lead Implementer, qualified to help organizations put an AI management system in place that fits their size, risk, and the way they already work.</p>
-          <a class="btn btn-light" href="/#contact">Book a discovery call</a>
+    <!-- INSIGHTS STRIP (hidden until data/insights.js has entries) -->
+    <section class="insights-strip" id="insights" aria-labelledby="insights-title" hidden>
+      <div class="wrap">
+        <div class="strip-head">
+          <div>
+            <p class="kicker">Insights</p>
+            <h2 id="insights-title" class="strip-title">Thinking on AI governance</h2>
+          </div>
+          <a class="strip-all" href="/insights/">All insights &rarr;</a>
         </div>
-        <dl class="cert-plate" aria-label="Certification details">
-          <div><dt>Credential</dt><dd>ISO/IEC 42001 Lead Implementer</dd></div>
-          <div><dt>Issued by</dt><dd>BSI</dd></div>
-          <div><dt>Standard</dt><dd>ISO/IEC 42001, AI management systems</dd></div>
-          <div><dt>Applied in</dt><dd>ISO/IEC 42001 readiness and custom governance frameworks</dd></div>
-        </dl>
+        <div class="insight-grid" id="insight-grid" data-limit="3"></div>
       </div>
     </section>
-
   </main>
   <footer class="site-footer">
     <div class="wrap footer-frameworks"><p><span>Governance frameworks</span>NIST AI RMF · ISO/IEC 42001 · EU AI Act · OECD AI Principles · Privacy &amp; data governance</p></div>
@@ -163,6 +176,8 @@
       <p><a href="https://www.linkedin.com/in/johnmolendyk" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
     </div>
   </footer>
-  <script src="/page.js?v=20261129"></script>
+  <script src="/data/insights.js?v=20261130"></script>
+  <script src="/insights.js?v=20261130"></script>
+  <script src="/page.js?v=20261130"></script>
 </body>
 </html>
