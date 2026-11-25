@@ -395,8 +395,8 @@ body.modal-open{overflow:hidden}
 .pic-arrow{align-self:center;width:9px;height:9px;margin:14px 0 18px;border-top:2px solid var(--green);border-right:2px solid var(--green);transform:rotate(135deg)}
 .ico{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:#E3EFE8;color:var(--green)}
 .ico svg{width:24px;height:24px}
-.pic-strategy .ico{background:#fff}
-.pic-outcomes .ico{background:#fff}
+.pic-strategy .ico{background:transparent}
+.pic-outcomes .ico{background:transparent}
 @media (max-width:1000px){.pic-disciplines{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.pic-disciplines{grid-template-columns:1fr}}
 #picture-title{max-width:none}
