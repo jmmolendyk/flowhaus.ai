@@ -379,23 +379,19 @@ body.modal-open{overflow:hidden}
 .insights-strip{background:#EDF3EF}
 .fractional-list .spec:last-child{margin-bottom:0}
 
-/* The whole picture: disciplines diagram */
-.picture{display:grid;grid-template-columns:1fr 32px 2fr 32px 1fr;align-items:stretch;gap:0}
+/* The whole picture: disciplines diagram (always top to bottom) */
+.picture{display:flex;flex-direction:column;align-items:stretch}
 .picture h3{font-size:1.1rem;margin-bottom:.4em}
 .picture p{font-size:.95rem;color:var(--muted);margin:0}
-.pic-strategy,.pic-disciplines li,.pic-outcomes{border-radius:var(--radius);padding:22px 22px 24px}
-.pic-strategy{background:#fff;border:1px solid var(--line);border-top:3px solid var(--ink);display:flex;flex-direction:column;justify-content:center}
-.pic-disciplines{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pic-strategy,.pic-disciplines li,.pic-outcomes{border-radius:var(--radius);padding:22px 24px 24px}
+.pic-strategy{background:#fff;border:1px solid var(--line);border-bottom:3px solid var(--ink);text-align:center}
+.pic-disciplines{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .pic-disciplines li{background:#fff;border:1px solid var(--line)}
-.pic-disciplines li.is-gov{border:2px solid var(--green)}
 .pic-disciplines .card-link{display:inline-block;margin-top:10px}
-.pic-outcomes{background:var(--green);color:#fff;display:flex;flex-direction:column;justify-content:center}
+.pic-outcomes{background:var(--green);color:#fff;text-align:center}
 .pic-outcomes h3{color:#fff}
 .pic-outcomes p{color:#fff;font-family:var(--mono);font-size:.82rem;letter-spacing:.04em;line-height:1.7}
-.pic-arrow{align-self:center;justify-self:center;width:10px;height:10px;border-top:2px solid var(--green);border-right:2px solid var(--green);transform:rotate(45deg)}
-@media (max-width:900px){
-  .picture{grid-template-columns:1fr;gap:0}
-  .pic-arrow{transform:rotate(135deg);margin:14px 0}
-}
+.pic-arrow{align-self:center;width:10px;height:10px;margin:16px 0 20px;border-top:2px solid var(--green);border-right:2px solid var(--green);transform:rotate(135deg)}
+@media (max-width:1000px){.pic-disciplines{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.pic-disciplines{grid-template-columns:1fr}}
 #picture-title{max-width:none}

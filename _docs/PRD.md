@@ -28,7 +28,7 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 5. The opportunity
 6. The reality (four cards: strategy without follow-through, tools without adoption, use without visibility, rules that don't fit)
 7. Approach: "Optimize, then automate." Four steps (define and measure; optimize, then automate; measure and improve; transfer ownership), plus two supporting ideas (governance as an enabler; design for adoption). Language adapted from johnmolendyk.com/approach
-8. **The whole picture**: "Five disciplines, working as one." Diagram: AI Strategy → Process Engineering, Technology & Data, People & Experience, AI Governance (links to the section below) → Organizational outcomes (value, adoption, responsibility). Horizontal on desktop, stacked on mobile
+8. **The whole picture**: "From opportunity to organizational value." Diagram (always top to bottom): AI Strategy → Process Engineering, Technology & Data, People & Experience, AI Governance (links to the section below) → Organizational outcomes (value, adoption, responsibility). Four discipline cards across on desktop, two across on tablet, one on mobile
 9. **AI Governance** summary: Fractional AI Governance, ISO/IEC 42001 Implementation, Focused Governance (each with a short subhead), a "What it focuses on" panel, and a Learn more button to /governance/
 10. Insights strip (hidden until `data/insights.js` has entries), between AI Governance and About, linking to /insights/<slug>/ (noindex until the first piece is published)
 11. About and credentials (buckets in order: Process Engineering & Product Delivery, AI Governance & Privacy, Human-Centered Design), ending with the independence statement and a "learn more" link to johnmolendyk.com (new window)
