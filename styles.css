@@ -377,3 +377,4 @@ body.modal-open{overflow:hidden}
 /* Section background rhythm: white / stone alternate; Insights strip uses a pale green so it never matches its neighbours */
 .about-grid .independence{background:var(--stone)}
 .insights-strip{background:#EDF3EF}
+.fractional-list .spec:last-child{margin-bottom:0}
