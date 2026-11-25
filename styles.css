@@ -406,3 +406,7 @@ body.modal-open{overflow:hidden}
 /* About: link sits above the independence note, with room between */
 .about-more{margin:28px 0 0}
 .about-grid .independence{margin-top:64px}
+
+/* Strategy and outcomes boxes: text only, larger heading, centered */
+.pic-strategy,.pic-outcomes{justify-content:center;text-align:center}
+.pic-strategy h3,.pic-outcomes h3{font-size:1.3rem;margin-bottom:.35em}
