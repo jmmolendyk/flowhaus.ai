@@ -439,3 +439,45 @@ body.modal-open{overflow:hidden}
   .levels-steps li:nth-child(2) .lv-box{width:80%}
   .levels-steps h3{margin-top:8px}
 }
+
+/* Governance page: statement, sticky section nav, methodology */
+.gov-statement{padding:56px 0 52px}
+.gov-statement .band-statement{max-width:46ch}
+.section-nav{position:sticky;top:var(--header-h,65px);z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.section-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.section-nav ul::-webkit-scrollbar{display:none}
+.section-nav a{display:block;white-space:nowrap;padding:14px 14px;font-family:var(--mono);font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-1px}
+.section-nav a:hover{color:var(--green)}
+.section-nav a[aria-current="true"]{color:var(--green);border-bottom-color:var(--green)}
+.section-nav li:first-child a{padding-left:0}
+html:has(.gov-page){scroll-padding-top:118px}
+
+/* Governance page: philosophy and methodology */
+.philosophy{background:#fff}
+.philosophy-grid{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+.philosophy-head .section-title{max-width:16ch;margin-bottom:0}
+.philosophy-body p{color:var(--ink);max-width:60ch}
+.philosophy-body .philosophy-lead{font-size:1.2rem;font-weight:600;line-height:1.4;color:var(--green)}
+.philosophy-body .philosophy-close{margin-top:32px;padding-left:22px;border-left:4px solid var(--green);font-size:1.25rem;font-weight:500;line-height:1.4}
+.methodology{background:#F1F7F3;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.mlevels{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.mlevel{background:#fff;border:1px solid #D6E4DB;border-top-width:6px;border-radius:14px;padding:24px 24px 26px}
+.mlevel-1{border-top-color:#BFDCCB}.mlevel-2{border-top-color:#4A7A62}.mlevel-3{border-top-color:var(--green)}
+.ml-num{display:block;font-family:var(--mono);font-weight:500;font-size:1.3rem;letter-spacing:.04em;color:var(--green);margin-bottom:6px}
+.mlevel h3{font-size:1.3rem;margin:0 0 4px}
+.ml-sub{font-family:var(--mono);font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.ml-desc{color:var(--ink);font-size:1.02rem;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid #E3EDE7}
+.mlevel dt{font-weight:600;font-size:.95rem;margin:0 0 4px;color:var(--ink)}
+.mlevel dd{margin:0 0 16px;color:var(--muted);font-size:.95rem}
+.mlevel dd:last-child{margin-bottom:0}
+.mgmt{margin-top:20px;background:#fff;border:1px solid #D6E4DB;border-radius:14px;padding:24px 28px;text-align:center}
+.mgmt h3{font-size:1.25rem;margin:0 0 6px}
+.mgmt p{margin:0 auto;max-width:78ch;color:var(--muted)}
+.mloop{margin-top:14px;display:flex;align-items:center;justify-content:center;gap:12px;background:#DCEBE2;border:1px solid #C2DACC;border-radius:14px;padding:16px 24px}
+.mloop p{margin:0;font-weight:600;color:var(--ink)}
+.mloop .ico{width:36px;height:36px;border-radius:10px;background:#fff}
+@media (max-width:1000px){
+  .philosophy-grid{grid-template-columns:1fr;gap:28px}
+  .philosophy-head .section-title{max-width:none}
+  .mlevels{grid-template-columns:1fr}
+}
