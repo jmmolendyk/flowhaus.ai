@@ -401,3 +401,12 @@ body.modal-open{overflow:hidden}
 @media (max-width:1000px){.pic-disciplines{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.pic-disciplines{grid-template-columns:1fr}}
 #picture-title{max-width:none}
+
+/* Icon rows (Approach supporting ideas, AI Governance offers) */
+.ico-row{display:flex;gap:16px;align-items:flex-start}
+.ico-row>div{min-width:0}
+.gov-offers .ico{background:#fff}
+.gov-offers .ico-row,.gov-offers li.ico-row{padding:18px 0}
+/* About: link sits above the independence note, with room between */
+.about-more{margin:28px 0 0}
+.independence{margin-top:44px}
