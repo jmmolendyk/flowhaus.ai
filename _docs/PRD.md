@@ -30,11 +30,12 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 7. Approach: "Optimize, then automate." Four steps (define and measure; optimize, then automate; measure and improve; transfer ownership), plus two supporting ideas (governance as an enabler; design for adoption), each with a line icon. Language adapted from johnmolendyk.com/approach
 8. **The whole picture**: "From opportunity to organizational value." Diagram (always top to bottom): AI Strategy → Process Engineering, Technology & Data, People & Experience, AI Governance (links to the section below) → Organizational outcomes (value, adoption, responsibility). Rounded cards with one line icon each, green gradients, capped at 880px and centered. Four discipline cards across on desktop, two across on tablet, one on mobile
 9. **AI Governance** summary: Fractional AI Governance, ISO/IEC 42001 Implementation, Focused Governance (each with a short subhead), a "What it focuses on" panel, and a Learn more button to /governance/
-10. Insights strip (hidden until `data/insights.js` has entries), between AI Governance and About, linking to /insights/<slug>/ (noindex until the first piece is published)
-11. About and credentials (buckets in order: Process Engineering & Product Delivery, AI Governance & Privacy, Human-Centered Design), ending with the independence statement and a "learn more" link to johnmolendyk.com (new window)
-12. Past work: "Selected experience / From my past work", employer-labelled cards in the order Meta, Wells Fargo, B. Braun Medical, Union Bank (hidden until `data/cases.js` has entries)
-13. Contact: Calendly discovery call plus a minimal form
-14. Footer: governance frameworks line (NIST AI RMF, ISO/IEC 42001, EU AI Act, OECD AI Principles, privacy and data governance), copyright, LinkedIn
+10. **Progressive AI Governance**: "Governance that enables progress." Copy on the left, a redrawn three-step diagram on the right (01 Foundations: Enable use; 02 Managed AI: Enable delivery; 03 Assured AI: Enable consequential opportunities), link to /governance/
+11. Insights strip (hidden until `data/insights.js` has entries), between AI Governance and About, linking to /insights/<slug>/ (noindex until the first piece is published)
+12. About and credentials (buckets in order: Process Engineering & Product Delivery, AI Governance & Privacy, Human-Centered Design), ending with the independence statement and a "learn more" link to johnmolendyk.com (new window)
+13. Past work: "Selected experience / From my past work", employer-labelled cards in the order Meta, Wells Fargo, B. Braun Medical, Union Bank (hidden until `data/cases.js` has entries)
+14. Contact: Calendly discovery call plus a minimal form
+15. Footer: governance frameworks line (NIST AI RMF, ISO/IEC 42001, EU AI Act, OECD AI Principles, privacy and data governance), copyright, LinkedIn
 
 ## AI Governance landing page (/governance/)
 Holds the detail moved off the homepage, in this order: intro hero (left-aligned to the standard page width) with a jump nav, Fractional AI Governance (short description of how fractional work is scoped, plus a "Fractional services" panel), the ISO/IEC 42001 Lead Implementer band, Focused governance outcomes (six cards linking to service pages), and the Insights strip (hidden until `data/insights.js` has entries, same component as the homepage). A start for the governance landing page; to be expanded.
