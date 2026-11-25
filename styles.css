@@ -92,7 +92,7 @@ p{margin:0 0 1em}
 .section-title{font-size:clamp(1.7rem,3.2vw,2.3rem);max-width:22ch;margin-bottom:1em}
 .section-intro{max-width:62ch;color:var(--muted);margin:-.4em 0 2em}
 
-.problem-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.problem-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:40px 32px}
 .problem-grid li{border-top:2px solid var(--ink);padding-top:16px}
 .problem-grid h3{font-size:1.15rem}
 .problem-grid p{color:var(--muted);font-size:.97rem}

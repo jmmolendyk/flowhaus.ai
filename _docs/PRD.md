@@ -26,7 +26,7 @@ A single-page site that tells prospects what Flowhaus does, why it is credible, 
 3. Statement band: "20+ years delivering in regulated industries such as financial services, healthcare, and technology", on its own, large, with generous spacing
 4. Credential chips band: AIGP, ISO/IEC 42001 Lead Implementer (BSI), CIPM
 5. The opportunity
-6. The reality (four cards: strategy without follow-through, tools without adoption, use without visibility, rules that don't fit)
+6. The reality (six cards: strategy without follow-through, tools without adoption, development without stewardship, use without visibility, processing without visibility, rules that don't fit)
 7. Approach: "Optimize, then automate." Four steps (define and measure; optimize, then automate; measure and improve; transfer ownership), plus two supporting ideas (governance as an enabler; design for adoption), each with a line icon. Language adapted from johnmolendyk.com/approach
 8. **The whole picture**: "From opportunity to organizational value." Diagram (always top to bottom): AI Strategy → Process Engineering, Technology & Data, People & Experience, AI Governance (links to the section below) → Organizational outcomes (value, adoption, responsibility). Rounded cards with one line icon each, green gradients, capped at 880px and centered. Four discipline cards across on desktop, two across on tablet, one on mobile
 9. **AI Governance** summary: Fractional AI Governance, ISO/IEC 42001 Implementation, Focused Governance (each with a short subhead), a "What it focuses on" panel, and a Learn more button to /governance/
