@@ -410,3 +410,5 @@ body.modal-open{overflow:hidden}
 /* Strategy and outcomes boxes: text only, larger heading, centered */
 .pic-strategy,.pic-outcomes{justify-content:center;text-align:center}
 .pic-strategy h3,.pic-outcomes h3{font-size:1.3rem;margin-bottom:.35em}
+
+.problem-grid .ico{margin-bottom:14px}
