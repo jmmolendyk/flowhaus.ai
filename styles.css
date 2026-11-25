@@ -481,3 +481,20 @@ html:has(.gov-page){scroll-padding-top:118px}
   .philosophy-head .section-title{max-width:none}
   .mlevels{grid-template-columns:1fr}
 }
+
+/* Racetrack stages (homepage list and governance cards) */
+.stages-head{font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--green);margin:0 0 14px}
+.stages ol{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.stages li{display:grid;grid-template-columns:150px 1fr;gap:18px;align-items:center;background:#fff;border:1px solid #D6E4DB;border-radius:14px;padding:14px}
+.stages img{display:block;width:100%;height:auto;border-radius:10px}
+.stages .st-label{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 4px}
+.stages h3{font-size:1.1rem;margin:0 0 4px}
+.stages li p:last-child{margin:0;font-size:.92rem;color:var(--muted)}
+.ml-art{display:block;width:calc(100% + 48px);max-width:none;height:auto;margin:-24px -24px 18px;border-radius:8px 8px 0 0}
+.ml-label{font-family:var(--mono);font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--green);margin:0 0 6px}
+.ml-desc2{color:var(--ink);font-size:1.02rem;margin:-6px 0 18px}
+.ml-principle{margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid #E3EDE7;font-size:.92rem;font-style:italic;color:var(--muted)}
+.mlevel .ml-desc{border-bottom:0;padding-bottom:0;margin-bottom:14px}
+.mlevel .ml-desc2{margin-top:0}
+.mlevel .ml-num{display:none}
+@media (max-width:560px){.stages li{grid-template-columns:1fr}}

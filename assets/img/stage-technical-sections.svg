@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Illustration of a tight, winding technical section of track">
+<rect width="320" height="180" fill="#E3EFE8"/>
+<path d="M-10 150 L96 150 C146 150 146 108 96 108 L224 108 C274 108 274 66 224 66 L110 66 C66 66 66 28 110 28 L330 28" stroke="#BFDCCB" stroke-width="34" stroke-linejoin="round" fill="none"/>
+<path d="M-10 150 L96 150 C146 150 146 108 96 108 L224 108 C274 108 274 66 224 66 L110 66 C66 66 66 28 110 28 L330 28" stroke="#0f5a3c" stroke-width="22" stroke-linejoin="round" fill="none"/>
+<path d="M-10 150 L96 150 C146 150 146 108 96 108 L224 108 C274 108 274 66 224 66 L110 66 C66 66 66 28 110 28 L330 28" stroke="#fff" stroke-width="2" stroke-dasharray="10 9" fill="none"/>
+<g fill="#f5b800"><circle cx="136" cy="129" r="4.5"/><circle cx="264" cy="87" r="4.5"/><circle cx="76" cy="47" r="4.5"/></g>
+</svg>

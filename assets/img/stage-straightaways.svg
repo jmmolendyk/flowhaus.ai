@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Illustration of a long straight stretch of track">
+<rect width="320" height="180" fill="#E3EFE8"/>
+<path d="M-20 138 L340 52" stroke="#BFDCCB" stroke-width="64" fill="none"/>
+<path d="M-20 138 L340 52" stroke="#0f5a3c" stroke-width="46" fill="none"/>
+<path d="M-20 138 L340 52" stroke="#fff" stroke-width="2.5" stroke-dasharray="16 14" fill="none"/>
+<g fill="#fff" opacity=".9"><rect x="86" y="96" width="18" height="9" rx="3" transform="rotate(-13 95 100)"/><rect x="196" y="72" width="18" height="9" rx="3" transform="rotate(-13 205 76)"/></g>
+</svg>

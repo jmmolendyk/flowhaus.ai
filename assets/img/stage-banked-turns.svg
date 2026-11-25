@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Illustration of a banked curve with a protective barrier">
+<rect width="320" height="180" fill="#E3EFE8"/>
+<path d="M-20 160 C110 160 250 150 282 30" stroke="#BFDCCB" stroke-width="70" fill="none"/>
+<path d="M-20 160 C110 160 250 150 282 30" stroke="#0f5a3c" stroke-width="50" fill="none"/>
+<path d="M-20 160 C110 160 250 150 282 30" stroke="#fff" stroke-width="2.5" stroke-dasharray="16 14" fill="none"/>
+<path d="M-20 128 C100 128 214 120 246 14" stroke="#4A7A62" stroke-width="7" fill="none"/>
+<path d="M-20 192 C120 192 290 180 318 40" stroke="#4A7A62" stroke-width="3" stroke-dasharray="3 7" fill="none"/>
+</svg>
