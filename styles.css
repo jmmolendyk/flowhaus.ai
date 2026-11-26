@@ -618,3 +618,59 @@ html:has(.gov-page){scroll-padding-top:118px}
 .frac-page .faq+.article-cta{margin-top:48px}
 @media(max-width:980px){.loop,.frac-creds{grid-template-columns:repeat(2,1fr)}.stat-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.loop,.frac-creds,.stat-grid{grid-template-columns:1fr}.svc-list li{grid-template-columns:44px 1fr}.svc-list li>div{grid-column:1/-1}}
+
+/* Progressive AI Governance page and governance summary */
+.rt-fig{margin:0 0 40px;background:#fff;border:1px solid #D6E4DB;border-radius:18px;padding:28px 28px 20px}
+.rt-svg{display:block;width:100%;height:auto;max-width:980px;margin:0 auto}
+.rt-fig figcaption{margin:14px auto 0;max-width:70ch;text-align:center;color:var(--muted);font-size:.95rem}
+.tension{list-style:none;margin:56px 0 0;padding:0;display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:16px;align-items:stretch}
+.tension li{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.tension li.t-mid{background:#F1F7F3;border:1px solid #BFDCCB;border-top:6px solid var(--green)}
+.tension h3{font-size:1.1rem;margin:0 0 6px}.tension p{margin:0;color:var(--muted);font-size:.96rem}
+.stage-details{display:grid;gap:22px;margin:0 0 24px}
+.sd{display:grid;grid-template-columns:5fr 7fr;gap:0;background:#fff;border:1px solid #D6E4DB;border-radius:16px;overflow:hidden}
+.sd-art{background:#F1F7F3;display:flex;align-items:center;justify-content:center;padding:28px;border-right:1px solid #E3EDE7}
+.sd-art img{width:100%;max-width:420px;height:auto;border-radius:10px}
+.sd-body{padding:28px 32px 30px;border-top:6px solid #BFDCCB;margin-top:-1px}
+.sd-2 .sd-body{border-top-color:#4A7A62}.sd-3 .sd-body{border-top-color:var(--green)}
+.sd-body h3{font-size:1.5rem;margin:0 0 4px}
+.sd-body p{color:var(--muted)}
+.sd-principle{font-weight:600;color:var(--green)!important;margin:14px 0!important}
+.sd-dl{margin:0;display:grid;gap:14px}
+.sd-dl div{padding-top:12px;border-top:1px solid #E3EDE7}
+.sd-dl dt{font-family:var(--mono);font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--green);margin:0 0 3px}
+.sd-dl dd{margin:0;color:var(--ink);font-size:.97rem}
+.factors{margin-bottom:8px}
+.lvl-table{border:1px solid #D6E4DB;border-radius:14px;overflow:hidden;background:#fff}
+.lvl-row{display:grid;grid-template-columns:150px 1fr 1fr 1fr;gap:18px;padding:16px 22px;border-top:1px solid #E3EDE7;font-size:.96rem;align-items:start}
+.lvl-row:first-child{border-top:0}
+.lvl-row>span:first-child{font-weight:600;color:var(--ink)}
+.lvl-row>span{color:var(--muted)}
+.lvl-head{background:#F1F7F3;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase}
+.lvl-head>span{color:var(--green)!important;font-weight:500}
+.prog-page .philosophy{padding-bottom:96px}
+/* governance page summary */
+.gov-prog{background:#F1F7F3;padding:88px 0}
+.gp-intro{max-width:70ch;color:var(--ink);margin:0 0 32px;font-size:1.08rem}
+.gp-intro strong{color:var(--green)}
+.gov-prog .rt-fig{margin-bottom:24px}
+.gp-stages{list-style:none;margin:0 0 28px;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.gp-stages li{background:#fff;border:1px solid #D6E4DB;border-top:6px solid #BFDCCB;border-radius:14px;padding:20px 22px 22px}
+.gp-stages li:nth-child(2){border-top-color:#4A7A62}.gp-stages li:nth-child(3){border-top-color:var(--green)}
+.gp-stages h3{font-size:1.15rem;margin:0 0 2px}.gp-stages .ml-sub{margin:0 0 8px}
+.gp-stages p:last-child{margin:0;color:var(--muted);font-size:.95rem}
+.gp-out-h{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--steel);margin:0 0 12px}
+.gp-outcomes{list-style:none;margin:0 0 32px;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.gp-outcomes li{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #D6E4DB;border-radius:12px;padding:12px 14px;font-weight:600;font-size:.93rem;line-height:1.25}
+.gp-outcomes .ico{flex:0 0 36px;width:36px;height:36px}
+@media(max-width:980px){.sd{grid-template-columns:1fr}.sd-art{border-right:0;border-bottom:1px solid #E3EDE7}.gp-outcomes{grid-template-columns:repeat(2,1fr)}.tension{grid-template-columns:1fr}.lvl-row{grid-template-columns:110px 1fr 1fr 1fr;gap:12px;padding:14px 16px;font-size:.9rem}}
+@media(max-width:700px){.gp-stages{grid-template-columns:1fr}.rt-fig{padding:16px 10px 14px}.lvl-row{grid-template-columns:1fr;gap:4px}.lvl-head{display:none}.lvl-row>span:nth-child(2)::before{content:"1 \00b7 Foundational: ";font-weight:600;color:var(--ink)}.lvl-row>span:nth-child(3)::before{content:"2 \00b7 Managed: ";font-weight:600;color:var(--ink)}.lvl-row>span:nth-child(4)::before{content:"3 \00b7 Assured: ";font-weight:600;color:var(--ink)}.gp-outcomes{grid-template-columns:1fr}}
+.factors{grid-template-columns:repeat(6,1fr)}
+.factors li{grid-column:span 2}.factors li:nth-child(4),.factors li:nth-child(5){grid-column:span 3}
+@media(max-width:980px){.factors{grid-template-columns:repeat(2,1fr)}.factors li,.factors li:nth-child(4),.factors li:nth-child(5){grid-column:auto}}
+@media(max-width:640px){.factors{grid-template-columns:1fr}}
+.rt-legend{display:none;list-style:none;margin:14px 0 0;padding:0;gap:8px;font-size:.9rem;color:var(--muted)}
+.rt-legend li{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.rt-legend i{flex:0 0 18px;height:18px;border-radius:5px;display:inline-block}
+.rt-legend b{color:var(--ink)}
+@media(max-width:700px){.rt-labels{display:none}.rt-legend{display:grid}}
